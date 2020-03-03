@@ -1,0 +1,4038 @@
+Package: acme
+Version: 2.8.3-2
+Depends: libc, gnu-wget, ca-bundle, openssl-util, socat
+License: GPL-3.0-only
+Section: net
+Architecture: all
+Installed-Size: 46039
+Filename: acme_2.8.3-2_all.ipk
+Size: 46944
+SHA256sum: 308c195085205aa1aa9e51808298b5b4e50d20204a3644d5740a8ea5a38fdd43
+Description:  A client for issuing Letsencrypt certificates.
+
+Package: adblock
+Version: 3.5.5-2
+Depends: libc, jshn, jsonfilter
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 10926
+Filename: adblock_3.5.5-2_all.ipk
+Size: 11868
+SHA256sum: adc2bf44320b5c98e2f6fbe12dd1f85175bf30c442dffbea7aeceb5f97fdeda7
+Description:  Powerful adblock script to block ad/abuse domains via dnsmasq, unbound, named, kresd or dnscrypt-proxy.
+ The script supports many domain blacklist sites plus manual black- and whitelist overrides.
+ Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
+ 
+
+Package: alsa-lib
+Version: 1.1.6-1
+Depends: libc, kmod-sound-core, libpthread, librt
+License: LGPLv2.1 GPLv2
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 305804
+Filename: alsa-lib_1.1.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 303085
+SHA256sum: c0bee8bd7432afc7b043e98af111662e90e7d69e07fabb62b4553477eee8c367
+Description:  This is the library package for alsa, needed by some userspace programs.
+ You must have enabled the ALSA support in the kernel.
+
+Package: aria2
+Version: 1.35.0-1
+Depends: libc, zlib, libstdcpp, libopenssl1.1
+License: GPLv2
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 580411
+Filename: aria2_1.35.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 580325
+SHA256sum: 55d764761c023e78edeba9576478bee844b3febee0b9b11db321271ceee486a2
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility
+
+Package: ariang
+Version: 2018-02-21-f71a67cb-1
+Depends: libc, uhttpd, aria2
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 968904
+Filename: ariang_2018-02-21-f71a67cb-1_all.ipk
+Size: 969279
+SHA256sum: 2673d20d1003e8261a48e0a004adb7ed8b5ec81f43cb950de08ba459ebe80dfd
+Description:  AriaNg is a web frontend making aria2 easier to use. AriaNg is written in pure html & javascript, thus it does not need any compilers or runtime environment.
+
+Package: attendedsysupgrade-common
+Version: 0.1-2
+Depends: libc, rpcd, rpcd-mod-rpcsys
+License: GPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 357
+Filename: attendedsysupgrade-common_0.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1446
+SHA256sum: 1400a5f1d96ecac83cb2764a499c9a5002f921ae42036ded06ecfee023ae6e6d
+Description:  Common needed files for attendedsysupgrade tool
+ 
+ Manages dependencies and brings settings used by clients.
+ 
+ UCI options:
+ 
+ attendedsysupgrade.server.url
+ URL of compatible upgrade server [1]
+ 
+ attendedsysupgrade.client.upgrade_packages
+ Client should request image also if no new release but new packages upgrade are available.
+ 
+ attendedsysupgrade.client.advanced_mode
+ Offer advanced options like editing packages before request and show additional information.
+ 
+ attendedsysupgrade.client.auto_search
+ Tells the client to automattically search for upgrades
+ This can be done when opening luci or login in to console - depends on client.
+ 
+ [1]: https://github.com/aparcar/gsoc17-attended-sysupgrade
+
+Package: avahi-dbus-daemon
+Version: 0.7-3
+Depends: libc, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 37917
+Filename: avahi-dbus-daemon_0.7-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 38929
+SHA256sum: e79a6b54e3c5ede49a50534b7c50678e1abff3341900fa9741f851956036e7d6
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: bash
+Version: 4.4.18-2
+Depends: libc, libncurses6, libreadline8
+License: GPL-3.0+
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 304017
+Filename: bash_4.4.18-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 304424
+SHA256sum: f3c2d078448ea87e8bb7819a914169c444c7216ff144ccdee5894b4eef9e1d49
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: bcp38
+Version: 5-4
+Depends: libc, ipset
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2088
+Filename: bcp38_5-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3056
+SHA256sum: fcee271643b5cefde9595b8819dcf155d0f84cc0daa0b47ac46073ed325c5739
+Description:  bcp38 implements IETF BCP38 for home routers.
+ See https://tools.ietf.org/html/bcp38.
+ 
+ This package provides BCP38 for IPv4 only - IPv6 uses source 
+ specific default routes, so no firewall configuration is needed.
+
+Package: bind-client
+Version: 9.11.2-P1-1
+Depends: libc, bind-libs
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21904
+Filename: bind-client_9.11.2-P1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 22520
+SHA256sum: 35ac02fdec02279b2962bcf52c5d87dc11cc59d02a355021f42889b84d1060f7
+Description:  bind dynamic DNS client
+
+Package: bind-libs
+Version: 9.11.2-P1-1
+Depends: libc, libopenssl1.1, zlib
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1031688
+Filename: bind-libs_9.11.2-P1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1027376
+SHA256sum: 768d3c10e4c61507dfd778ae054fd0189b77cd623cbc2339c11b2df22dc35291
+Description:  bind shared libraries
+
+Package: boost-chrono
+Version: 1.71.0-4
+Depends: libc, libstdcpp, libpthread, librt, boost-system
+License: BSL-1.0
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9507
+Filename: boost-chrono_1.71.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10304
+SHA256sum: 662081a40646c2c6a03f166b8bd88fca873c5bffc87bf2a429c865be6f482356
+Description:  This package contains the Boost chrono library.
+
+Package: boost-date_time
+Version: 1.71.0-4
+Depends: libc, libstdcpp, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 14014
+Filename: boost-date_time_1.71.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14712
+SHA256sum: e1b7ed6fca6ab0b4544cc6a18b5181a7b2496709a24b6bab6dac6432d5499760
+Description:  This package contains the Boost date_time library.
+
+Package: boost-program_options
+Version: 1.71.0-4
+Depends: libc, libstdcpp, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 89347
+Filename: boost-program_options_1.71.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 89787
+SHA256sum: 0b1fc0571383590e318f57ed90ae52f14f096023ec232a7748ee6aec9a5bd6a2
+Description:  This package contains the Boost program_options library.
+
+Package: boost-random
+Version: 1.71.0-4
+Depends: libc, libstdcpp, libpthread, librt, boost-system
+License: BSL-1.0
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8394
+Filename: boost-random_1.71.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9218
+SHA256sum: fef80bdba6d492e3191651ec34ba75d92d1a368ff9301e92488faeedb44924f9
+Description:  This package contains the Boost random library.
+
+Package: boost-system
+Version: 1.71.0-4
+Depends: libc, libstdcpp, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 932
+Filename: boost-system_1.71.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1737
+SHA256sum: d76ff5084b4e8c5a04b68d0a6bdff114d15d4f63c28061e50853cb4d109918a6
+Description:  This package contains the Boost system library.
+
+Package: boost
+Version: 1.71.0-4
+Depends: libc, libstdcpp, libpthread, librt
+License: BSL-1.0
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 105
+Filename: boost_1.71.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1248
+SHA256sum: 6c7f9aa94939fad2507b8fd676d18cd25b5dae1f03a280221761ca02b02a03ad
+Description:  This package provides the Boost v1.71.0 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - chrono
+ - container
+ - context
+ - contract
+ - coroutine and coroutine2 (Coroutine is deprecated - use Coroutine2)
+ - date_time
+ - exception
+ - filesystem
+ - fiber
+ - graph
+ - - graph-parallel
+ - iostreams
+ - locale (Requires kernel being compiled with full language support)
+ - log
+ - math
+ - program_options
+ - python
+ - python3
+ - random
+ - regex
+ - serialization and wserialization
+ - stackstrace
+ - system
+ - thread
+ - timer
+ - type_erasure
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_71_0/
+
+Package: btrfs-progs
+Version: 4.15.1-1
+Depends: libc, libattr, libuuid, zlib, libblkid, liblzo, libpthread
+License: GPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2208680
+Filename: btrfs-progs_4.15.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2206333
+SHA256sum: 346b94bad165dc344d780c37c0781b0a35c273adf809276ba747844c69180375
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
+Package: certtool
+Version: 3.5.19-1
+Depends: libc, libgnutls
+License: LGPLv2.1+
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 124970
+Filename: certtool_3.5.19-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 125764
+SHA256sum: 968ebfbeca3c18b716cefb7d40ee28016cc226a80b788811a41dade62e03f571
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS certtool utility.
+
+Package: cgi-io
+Version: 5
+Depends: libc, libubox20170601, libubus20191227
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5917
+Filename: cgi-io_5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6697
+SHA256sum: 2febc9ae12145542162521717a8b1f3a0204db6451716e23b9a5bab9cf49f795
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: cgroupfs-mount
+Version: 1.4-1
+Depends: libc, mount-utils
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1114
+Filename: cgroupfs-mount_1.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1916
+SHA256sum: b11ba7281318aa9158c49f7577c93656198aa7ab18d52de40069525139305faf
+Description:  Simple scripts to properly mount the cgroupfs hierarchy, especially structured for Debian packaging
+
+Package: clamav
+Version: 0.101.4-1
+Depends: libc, uclibcxx, libpthread, zlib, libcurl4, libjson-c, libmilter-sendmail, libopenssl1.1, libltdl, libpcre2, musl-fts
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1157355
+Filename: clamav_0.101.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1152797
+SHA256sum: 0ab23bef1b70b821766b339fb8c6e5af2bcf3428f19182f180d7fbd1ecc9fac1
+Description:  ClamAV is an open source antivirus engine for detecting trojans,
+ viruses, malware & other malicious threats.
+
+Package: collectd-mod-cpu
+Version: 5.10.0-3
+Depends: libc, collectd
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3902
+Filename: collectd-mod-cpu_5.10.0-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4653
+SHA256sum: f113ab0414c157c0b7a072a1340589bf1dcae2d82f1278bbe7002ecc307a0a49
+Description:  CPU input plugin
+
+Package: collectd-mod-interface
+Version: 5.10.0-3
+Depends: libc, collectd
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3297
+Filename: collectd-mod-interface_5.10.0-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4049
+SHA256sum: dd2c442e5ef04224d95df523073ec25f1f1e497849f66e65b9517067b440bd5b
+Description:  network interfaces input plugin
+
+Package: collectd-mod-iwinfo
+Version: 5.10.0-3
+Depends: libc, collectd, libiwinfo20181126
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3367
+Filename: collectd-mod-iwinfo_5.10.0-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4141
+SHA256sum: acc9e3a4c5e4221ea309675d6514586bdd5d32a7662252d9638b6fa480ef707f
+Description:  libiwinfo wireless statistics plugin
+
+Package: collectd-mod-load
+Version: 5.10.0-3
+Depends: libc, collectd
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1842
+Filename: collectd-mod-load_5.10.0-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2596
+SHA256sum: d94271919cae40162a18b6ca9dae744be9fde0d2f7e1d9436bf1d9f85ed53dfe
+Description:  system load input plugin
+
+Package: collectd-mod-memory
+Version: 5.10.0-3
+Depends: libc, collectd
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2671
+Filename: collectd-mod-memory_5.10.0-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3427
+SHA256sum: 07127847b62f37fa375be70fd955c03a53ac473f1691a7e2c680671134e48df6
+Description:  physical memory usage input plugin
+
+Package: collectd-mod-network
+Version: 5.10.0-3
+Depends: libc, collectd
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 14753
+Filename: collectd-mod-network_5.10.0-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15458
+SHA256sum: 05e67893a345d930bd6255e843ff06a5059873e3f56e058b54ebf949ca9b5755
+Description:  network input/output plugin
+
+Package: collectd-mod-rrdtool
+Version: 5.10.0-3
+Depends: libc, collectd, librrd1
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11269
+Filename: collectd-mod-rrdtool_5.10.0-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 12037
+SHA256sum: b7569bd795b7faa2db333f67b54fb073ada589f05cb1dd2bce93957744834f90
+Description:  RRDtool output plugin
+
+Package: collectd
+Version: 5.10.0-3
+Depends: libc, libpthread, zlib, libltdl, libip4tc1.8.2, jshn
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 86047
+Filename: collectd_5.10.0-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 86899
+SHA256sum: 89c8452ab40f57194a0ccad455fa484349022077b5ac8db9811aff0724ec4036
+Description:  collectd is a small daemon which collects system information periodically
+ and provides mechanismns to store the values in a variety of ways.
+
+Package: containerd
+Version: 1.2.10-1
+Depends: libc, btrfs-progs, runc
+License: Apache-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 22676992
+Filename: containerd_1.2.10-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 22342602
+SHA256sum: 539d0c3343956803d8356eee8dcd3060d5adad1dd04a2108443446f38b9e00df
+Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
+
+Package: coreutils-base64
+Version: 8.23-3
+Depends: libc, coreutils
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19403
+Filename: coreutils-base64_8.23-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20182
+SHA256sum: 1e238cb78449ac802086de288055080dd365f4abc66b88f0246418fb7dfabd69
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-nohup
+Version: 8.23-3
+Depends: libc, coreutils
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17458
+Filename: coreutils-nohup_8.23-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18221
+SHA256sum: 66c1e6745d2f661ab21c2f47b2e4406930e84bd86db423cbfa7e75ba9bf4726b
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils
+Version: 8.23-3
+Depends: libc
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 105
+Filename: coreutils_8.23-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 934
+SHA256sum: ebd6c4563743ea608e4bfeafe75705c4696da4a7622d0f0c6c5697d08bcface3
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: cshark
+Version: 2018-08-20-7a7cf7f35074b85c6fb0c52067e640d2433ef73b-1
+Depends: libc, libjson-c, libpcap, libuci, libubox20170601, libuclient20160123, libustream-mbedtls20150806
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8951
+Filename: cshark_2018-08-20-7a7cf7f35074b85c6fb0c52067e640d2433ef73b-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9794
+SHA256sum: 083e7f5201c475782443722fcdf1e9795d05aca8e3c84431997f014d931fd389
+Description:  CloudShark capture tool
+
+Package: dbus
+Version: 1.10.4-1
+Depends: libc, libexpat, libdbus
+License: AFL-2.1
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 90462
+Filename: dbus_1.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 90934
+SHA256sum: 44be924bcf380a215929b50b75d8263eb592ae6c764fcc130fbab53e270f7265
+Description:  Simple interprocess messaging system (daemon)
+
+Package: ddns-scripts
+Version: 2.7.8-1
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 14650
+Filename: ddns-scripts_2.7.8-1_all.ipk
+Size: 15716
+SHA256sum: 7b0d38f5e990570e7563dc4aa403c347f35be82c2814dbd93a650e2d607da390
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: ddns-scripts_cloudflare.com-v4
+Version: 2.7.8-1
+Depends: ddns-scripts, curl
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 2969
+Filename: ddns-scripts_cloudflare.com-v4_2.7.8-1_all.ipk
+Size: 4076
+SHA256sum: c5a81a272a359c0eadacd01bd477e681627c70c2bc7280350cf6a91a170e810c
+Description:  Dynamic DNS Client scripts extension for CloudFlare.com API-v4 (require/install cURL)
+
+Package: ddns-scripts_freedns_42_pl
+Version: 2.7.8-1
+Depends: ddns-scripts, curl
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1997
+Filename: ddns-scripts_freedns_42_pl_2.7.8-1_all.ipk
+Size: 3048
+SHA256sum: 9e862ec19b9446e02911caf07a55984416da7d501dbf7bd01374b04064a98ff3
+Description:  Dynamic DNS Client scripts extension for freedns.42.pl
+
+Package: ddns-scripts_godaddy.com-v1
+Version: 2.7.8-1
+Depends: ddns-scripts, curl
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 2768
+Filename: ddns-scripts_godaddy.com-v1_2.7.8-1_all.ipk
+Size: 3860
+SHA256sum: d9fb1b4c399e45a7173c9653cb5500c229d32615cb705c1feab43febf598c813
+Description:  Dynamic DNS Client scripts extension for GoDaddy.com (require/install cURL)
+
+Package: ddns-scripts_no-ip_com
+Version: 2.7.8-1
+Depends: ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1800
+Filename: ddns-scripts_no-ip_com_2.7.8-1_all.ipk
+Size: 2873
+SHA256sum: 31785b456accf15c768eecd28b5e3813bad9d6b1739a4633fc6b9babe9812ba4
+Description:  Dynamic DNS Client scripts extension for No-IP.com
+
+Package: ddns-scripts_nsupdate
+Version: 2.7.8-1
+Depends: ddns-scripts, bind-client
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1796
+Filename: ddns-scripts_nsupdate_2.7.8-1_all.ipk
+Size: 2900
+SHA256sum: c2840cbceee1294518b933b845fa173762cdf089caa77a1b6729093e331742d6
+Description:  Dynamic DNS Client scripts extension for direct updates using Bind nsupdate
+
+Package: ddns-scripts_route53-v1
+Version: 2.7.8-1
+Depends: ddns-scripts, curl, openssl-util
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 2631
+Filename: ddns-scripts_route53-v1_2.7.8-1_all.ipk
+Size: 3855
+SHA256sum: 63d3874f74183f6869d8340455a404f0f3bc6ae09f8bbfd3e19fa7514c4b5cf4
+Description:  Dynamic DNS Client scripts extension for Amazon AWS Route53. Note: You
+ must also install ca-certificate or ca-bundle.
+ It requires:
+ "option username" to be a valid AWS access key id
+ "option password" to be the matching AWS secret key id
+ "option domain" to contain the hosted zone ID
+
+Package: dkjson
+Version: 2.5-3
+Depends: libc, lua
+License: MIT
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6687
+Filename: dkjson_2.5-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7494
+SHA256sum: 5cc8c9fcdb3deb5d7461602e6516da19d53cd0ad0e4013565459b10cfc425702
+Description:  Lua JSON parser/serializer with UTF-8 support
+
+Package: dnscrypt-proxy-resolvers
+Version: 1.9.5+git-20171001-2d43be3-8
+Depends: libc
+License: ISC
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7505
+Filename: dnscrypt-proxy-resolvers_1.9.5+git-20171001-2d43be3-8_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8305
+SHA256sum: 8196629465c764a3338c23b6cd194976d658ae73cf08a0c430c688c1d72ef66e
+Description:  Package with current list of dnscrypt-proxy resolvers.
+
+Package: dnscrypt-proxy
+Version: 1.9.5-8
+Depends: libc, libsodium, dnscrypt-proxy-resolvers
+License: ISC
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 64562
+Filename: dnscrypt-proxy_1.9.5-8_arm_cortex-a7_neon-vfpv4.ipk
+Size: 65566
+SHA256sum: b4761d75862cf0bf5965fa6a1e8b0a1b2294887b2265b295c7913d6ab9ee083c
+Description:  dnscrypt-proxy provides local service which can be used directly as your
+ local resolver or as a DNS forwarder, encrypting and authenticating requests
+ using the DNSCrypt protocol and passing them to an upstream server.
+ The DNSCrypt protocol uses high-speed high-security elliptic-curve cryptography
+ and is very similar to DNSCurve, but focuses on securing communications between
+ a client and its first-level resolver.
+
+Package: docker-ce
+Version: 19.03.3-2
+Depends: libc, btrfs-progs, ca-certificates, cgroupfs-mount, containerd, libdevmapper, libnetwork, tini, iptables-mod-extra, kmod-br-netfilter, kmod-ikconfig, kmod-nf-conntrack-netlink, kmod-nf-ipvs, kmod-veth
+License: Apache-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30047672
+Filename: docker-ce_19.03.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 29992784
+SHA256sum: 32d2d40fefc35cb0be7b0bc3d7aa455a77188e574aba8bf0807cd6c47ff739cf
+Description:  Docker Engine is used by millions enables containerized applications
+ to run anywhere consistently on any infrastructure.
+
+Package: dump1090
+Version: 2017-06-01-1
+Depends: libc, libpthread, librtlsdr, uhttpd
+License: GPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 710672
+Filename: dump1090_2017-06-01-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 704566
+SHA256sum: 095343e575142c7e2597aa691065730a5442d56251f0956cb1f2117ef7453b27
+Description:  Dump1090 is a Mode S decoder specifically designed for RTLSDR devices.
+
+Package: dynapoint
+Version: 2
+Depends: libc, lua, libubus-lua, libuci-lua, libubox-lua, luci-lib-nixio
+License: GPL-3.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2464
+Filename: dynapoint_2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3326
+SHA256sum: d0b68032cf22a9e15b0708f248d998a2a9da3ff40436c49085e0d1c2e6ccb25e
+Description:  Dynapoint uses LUA scripts to allow dynamic access point creation
+ and deletion depending on changes of certain network conditions.
+
+Package: e2guardian
+Version: 3.2.0-1
+Depends: libc, libpthread, uclibcxx, zlib, libpcre
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 305315
+Filename: e2guardian_3.2.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 305406
+SHA256sum: f05e443b07f8682522e271cea92982a5ff2b6ebf6083ebb264c811d6d22afbfe
+Description:  E2Guardian
+
+Package: etherwake
+Version: 1.09-4
+Depends: libc
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4893
+Filename: etherwake_1.09-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5818
+SHA256sum: 2ab9e3302fc09509c98084b0b2f16712692ebd401ef93375eaa4ffc7b80b2e15
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: fwknop
+Version: 2.6.9-4
+Depends: libc, libfko
+License: GPLv2
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30496
+Filename: fwknop_2.6.9-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 31601
+SHA256sum: 15289b7f95a1ca59a60591a4e6eecd22b22295208bba8fa48ce6bdcd745f9847
+Description:  Fwknop implements an authorization scheme known as Single Packet Authorization
+ (SPA) for Linux systems running iptables.  This mechanism requires only a
+ single encrypted and non-replayed packet to communicate various pieces of
+ information including desired access through an iptables policy. The main
+ application of this program is to use iptables in a default-drop stance to
+ protect services such as SSH with an additional layer of security in order to
+ make the exploitation of vulnerabilities (both 0-day and unpatched code) much
+ more difficult.
+ This package contains the fwknop client.
+
+Package: fwknopd
+Version: 2.6.9-4
+Depends: libc, iptables, libfko, libpcap
+License: GPLv2
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 58147
+Filename: fwknopd_2.6.9-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 59269
+SHA256sum: 194c8c87229a254302eb521e0d956f8456ab55b3da9a77a96288098104c63116
+Description:  Fwknop implements an authorization scheme known as Single Packet Authorization
+ (SPA) for Linux systems running iptables.  This mechanism requires only a
+ single encrypted and non-replayed packet to communicate various pieces of
+ information including desired access through an iptables policy. The main
+ application of this program is to use iptables in a default-drop stance to
+ protect services such as SSH with an additional layer of security in order to
+ make the exploitation of vulnerabilities (both 0-day and unpatched code) much
+ more difficult.
+ This package contains the fwknop daemon.
+
+Package: gzip
+Version: 1.7-1
+Depends: libc
+License: GPL-3.0+
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 42787
+Filename: gzip_1.7-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 43657
+SHA256sum: ff08384f834459cc38ac02e0d7ead6852653e18fe4e9938b7202bd2986d1162c
+Description:  gzip (GNU zip) is a compression utility designed to be a replacement for compress.
+
+Package: haproxy
+Version: 1.8.4-01
+Depends: libc, libpcre, libltdl, zlib, libpthread, libopenssl1.1, libncursesw6, libreadline8, libatomic
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 699550
+Filename: haproxy_1.8.4-01_arm_cortex-a7_neon-vfpv4.ipk
+Size: 699470
+SHA256sum: 873dbb8b9116da2013e7ff68a818be4000b5dc802d86939b7308d4edb727b8a8
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built with SSL and LUA support.
+
+Package: hd-idle
+Version: 1.05-1
+Depends: libc
+License: GPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4531
+Filename: hd-idle_1.05-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5325
+SHA256sum: 4cdad827693acc18128caddd3397e14a4414cd4042e067398a8a52606876a7cd
+Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
+
+Package: htop
+Version: 2.2.0-1
+Depends: libc, libncurses6
+License: GPL-2.0
+Section: admin
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 56245
+Filename: htop_2.2.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 57100
+SHA256sum: 731aa2e4be944d494d4023f13b5680e72d4ac0ff89553ab2cf975a05b728484f
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: icu
+Version: 65.1-2
+Depends: libc, libstdcpp, libpthread
+License: ICU
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1639264
+Filename: icu_65.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1627023
+SHA256sum: 3fac3ecede19f431f458831326178c3bbf425640060df496ac880c650fc6c9f1
+Description:  ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java software.
+ This package supports C/C++.
+
+Package: iptables-mod-account
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-account
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1807
+Filename: iptables-mod-account_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2580
+SHA256sum: 943c75362ef2350ffd7cfe1d656700b873a01c1eb5ccd6fa7d800a2619845b87
+Description:  ACCOUNT iptables extension
+
+Package: iptables-mod-chaos
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-chaos
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1271
+Filename: iptables-mod-chaos_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2041
+SHA256sum: 993b08d9264f350094a05709c6602361d5434335d1f0dead268724d5a6049182
+Description:  CHAOS iptables extension
+
+Package: iptables-mod-condition
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-condition
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1401
+Filename: iptables-mod-condition_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2172
+SHA256sum: 948c3b19d42eaece2a44720496e33e6f2ec7c9ea12a17fbbafbcd2b0d18eb1e5
+Description:  Condition iptables extension
+
+Package: iptables-mod-delude
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-delude
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 956
+Filename: iptables-mod-delude_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1722
+SHA256sum: 207c0592c305f0e137cf9ca69ec2b98784779c0fa87c693ae4d774b914795a1d
+Description:  DELUDE iptables extension
+
+Package: iptables-mod-dhcpmac
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-dhcpmac
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1598
+Filename: iptables-mod-dhcpmac_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2378
+SHA256sum: a5e893461bd160c3e8f4f17342575f9320ce5f0faf1bcc6418deca7926e03db5
+Description:  DHCPMAC iptables extension
+
+Package: iptables-mod-dnetmap
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-dnetmap
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2537
+Filename: iptables-mod-dnetmap_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3276
+SHA256sum: c4c62a5ad28d95ea841d1b1788b6d09bed21f23e82ff2c9fe3804fad8bfddfe0
+Description:  DNETMAP iptables extension
+
+Package: iptables-mod-fuzzy
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-fuzzy
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1471
+Filename: iptables-mod-fuzzy_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2231
+SHA256sum: 0bc3d8d137c34b93df113e21548101c7ed62bd482e6de52aed32b04ba20f425e
+Description:  fuzzy iptables extension
+
+Package: iptables-mod-geoip
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-geoip
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2929
+Filename: iptables-mod-geoip_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3662
+SHA256sum: 8399d8a4ca4bd06d64a3f587b3cb50a5fa8a8f3a17fa5f3eafedeb40744899d0
+Description:  geoip iptables extension
+
+Package: iptables-mod-iface
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-iface
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2506
+Filename: iptables-mod-iface_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3237
+SHA256sum: 56e40551396ca04df9d4302d9f4cb8c21c3b07411f88bd8c7a3d85f4ed78d0c4
+Description:  iface iptables extension
+
+Package: iptables-mod-ipmark
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-ipmark
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1889
+Filename: iptables-mod-ipmark_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2663
+SHA256sum: 86b672ce2ef93ce0881fa355ccc69bd1e309a8ca27a51b900d9b66449e71dd0b
+Description:  IPMARK iptables extension
+
+Package: iptables-mod-ipp2p
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-ipp2p
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2455
+Filename: iptables-mod-ipp2p_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3184
+SHA256sum: 3128f867a83457460f1ca76dcf0c28bb8fdf3338746e129cebb2c5ed3bdceeab
+Description:  IPP2P iptables extension
+
+Package: iptables-mod-ipv4options
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-ipv4options
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1881
+Filename: iptables-mod-ipv4options_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2645
+SHA256sum: 8689eb124cb8fee280789cbb4195806fe4364ce5a2f216b42a007e6edb0e00ce
+Description:  ipv4options iptables extension
+
+Package: iptables-mod-length2
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-length2
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2007
+Filename: iptables-mod-length2_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2782
+SHA256sum: dc7c45f11435fb88ad572efdc9dea6cd3b941c46ba7677a882f6fed4554c7d92
+Description:  length2 iptables extension
+
+Package: iptables-mod-logmark
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-logmark
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1642
+Filename: iptables-mod-logmark_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2422
+SHA256sum: 1abf68fa547c1af1fda7855c6024899c6ee5d01e566d1eb095c930ab3b71c1c7
+Description:  LOGMARK iptables extension
+
+Package: iptables-mod-lscan
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-lscan
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1298
+Filename: iptables-mod-lscan_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2065
+SHA256sum: dd74d4c4fe766ed5f00a00df179a14496cb7fc40188170c9984e4d1bf8e5353f
+Description:  lscan iptables extension
+
+Package: iptables-mod-lua
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-lua
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2280
+Filename: iptables-mod-lua_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3016
+SHA256sum: 0633914d031186b636147d2604e48a85e298dc353195e271a657229a47717360
+Description:  Lua PacketScript iptables extension
+
+Package: iptables-mod-psd
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-psd
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1665
+Filename: iptables-mod-psd_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2432
+SHA256sum: 034f69484904015831a4617aca232ace336e8f1c0e36cb9814c4a6132c237d1c
+Description:  psd iptables extension
+
+Package: iptables-mod-quota2
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-quota2
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1801
+Filename: iptables-mod-quota2_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2571
+SHA256sum: db0bf22914f8e831e386c6b5803a78fc1aee27332252289446049ca2cc91a176
+Description:  quota2 iptables extension
+
+Package: iptables-mod-sysrq
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-sysrq
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 958
+Filename: iptables-mod-sysrq_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1719
+SHA256sum: 764b80f86e36a91c360d13a8920503820217c0c2d98983cae8918799d211dcd9
+Description:  SYSRQ iptables extension
+
+Package: iptables-mod-tarpit
+Version: 2.14-6
+Depends: libc, iptables, kmod-ipt-tarpit
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1319
+Filename: iptables-mod-tarpit_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2091
+SHA256sum: 197d6a7ff18b615f21ac68aaa2607f7618839ba3faaf5eaf145ff6ca9d17fdc4
+Description:  TARPIT iptables extension
+
+Package: iptaccount
+Version: 2.14-6
+Depends: libc, iptables, iptables-mod-account
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4376
+Filename: iptaccount_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5124
+SHA256sum: 344f05267d1922b2d53337be314cfac57abf1a47edb863c456683eb744493fb3
+Description:  iptables-mod-account control utility
+
+Package: iptgeoip
+Version: 2.14-6
+Depends: libc, iptables, iptables-mod-geoip, perl, perlbase-getopt, perlbase-io, perl-text-csv_xs, wget, gzip, unzip
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1467
+Filename: iptgeoip_2.14-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2285
+SHA256sum: 7f5dbbce5ef9e467ddf9d6cc768b33663b54e6284122c8ebed0aec1e91f7ff3b
+Description:  iptables-mod-geoip support scripts for MaxMind GeoIP databases
+
+Package: jansson
+Version: 2.10-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17872
+Filename: jansson_2.10-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18632
+SHA256sum: e525e3c4e481a33b82d71d8e539139fdd1f703ff5225e194557d80cbf4b8cef3
+Description:  Jansson is a C library for encoding, decoding and manipulating JSON data
+
+Package: libao
+Version: 1.2.0-1
+Depends: libc, alsa-lib
+License: GPL-2.0
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20015
+Filename: libao_1.2.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20797
+SHA256sum: 82b15f8e60114a9540cc8f57201aa7fc928ed757b3ef1ecbe469532ea2ff4794
+Description:  Libao is a cross-platform audio library that allows programs to
+ output audio using a simple API on a wide variety of platforms.
+
+Package: libattr
+Version: 20170915-1
+Depends: libc
+License: LGPL-2.1 GPL-2.0
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5784
+Filename: libattr_20170915-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6572
+SHA256sum: 80ece13b4522e8e48b222995103b4ba5a34be9d396b956c2d2f247ed7dbb3e6f
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libavahi-client
+Version: 0.7-3
+Depends: libc, avahi-dbus-daemon
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16931
+Filename: libavahi-client_0.7-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18023
+SHA256sum: e18edd70bc0a77ef661d2776b1cc95a1c0519fa85c342e46b7054e370c2c1d45
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-compat-libdnssd
+Version: 0.7-3
+Depends: libc, libavahi-client
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9207
+Filename: libavahi-compat-libdnssd_0.7-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10273
+SHA256sum: d9d89f33df3424c0205724da4e6c4f0815eee10706b2951c11a884d0ac41fd79
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-compat-libdnssd library.
+ It also automatically adds the required libavahi-client package.
+ For more information please see the avahi documentation.
+
+Package: libavahi-dbus-support
+Version: 0.7-3
+Depends: libc, dbus
+Provides: libavahi
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 66099
+Filename: libavahi-dbus-support_0.7-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 67079
+SHA256sum: cbce1db7015d7f8704411d59891ffecb0e4bbfc67775c6bd7a8080c15b420b9f
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
+
+Package: libcap
+Version: 2.26-1
+Depends: libc
+License: GPL-2.0
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5989
+Filename: libcap_2.26-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6725
+SHA256sum: 41f775f754fc3e57273cc781c54241e9af9630244a9fea3ba901035b39f5f368
+Description:  Linux capabilities library
+
+Package: libcares
+Version: 1.14.0-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 29028
+Filename: libcares_1.14.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 29889
+SHA256sum: e5d997ec440218139efe46901ffeaf5e3f9d34083f9d0b0553e597594ac4c44e
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libdaemon
+Version: 0.14-5
+Depends: libc
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7801
+Filename: libdaemon_0.14-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8889
+SHA256sum: 7a32df3427549bdae518531274b4c399dbeccefa7da5a4dd58ca00498bd4c437
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdaq
+Version: 2.0.6-2
+Depends: libc, libdnet, libpcap
+License: GPL-2.0
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 73107
+Filename: libdaq_2.0.6-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 73836
+SHA256sum: 0f1725f71ea2e1e3a219270b8f187e0ee5433acc7067e07044d4f33c0a0fc20a
+Description:  Data Acquisition library for packet I/O.
+
+Package: libdb47
+Version: 4.7.25.4.NC-5
+Depends: libc, libxml2
+Provides: libdb47-full
+License: Sleepycat
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 509323
+Filename: libdb47_4.7.25.4.NC-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 506817
+SHA256sum: 589c5384bf54fe99a98be3a6d5ca4b35a8dfd6299a4ce93aaecd4a2adae0c28c
+Description:  Berkeley DB library (4.7).
+
+Package: libdbus
+Version: 1.10.4-1
+Depends: libc, libpthread
+License: AFL-2.1
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 106669
+Filename: libdbus_1.10.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 106851
+SHA256sum: 8b93876d11fc3be50aa02749543a7ff96e4932fa504c4c334ad434781d7da243
+Description:  Simple interprocess messaging system (library)
+
+Package: libdevmapper
+Version: 2.02.177-1
+Depends: libc, kmod-dm, libpthread, libuuid, librt
+License: GPL-2.0 LGPL-2.1
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 134656
+Filename: libdevmapper_2.02.177-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 135294
+SHA256sum: 3be9848a83eb92b990e0e1d0b7b42e721a2f9478fac3233748616759d21de9dd
+Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
+ volume management. It is required by LVM2 and EVMS.
+
+Package: libdnet
+Version: 1.12-1
+Depends: libc
+License: BSD
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 27220
+Filename: libdnet_1.12-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27389
+SHA256sum: ec8982dc78c99b85c640e5b43af90126f280fa2fd15ee13a8c3f5457b209bc93
+Description:  libdnet is a library of simplified, portable interface to several low-level
+ networking routines.
+
+Package: libdouble-conversion
+Version: 2.0-1
+Depends: libc, libstdcpp
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 60945
+Filename: libdouble-conversion_2.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 61012
+SHA256sum: 9e576ff766a49f955b056f859ef1cc8eb153b25bbb49430f45b5f20a1b29104c
+Description:  double-conversion provides binary-decimal and decimal-binary routines for IEEE doubles.
+ 
+ The library consists of efficient conversion routines that have been extracted
+ from the V8 JavaScript engine. The code has been refactored and improved so that
+ it can be used more easily in other projects.
+
+Package: libev
+Version: 4.22-1
+Depends: libc
+License: BSD-2-Clause
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17646
+Filename: libev_4.22-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18348
+SHA256sum: b35b59b458d685a2e18ffe9e4da80d412c5d29937fc4e88793de97d1aa90d1eb
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libexif
+Version: 0.6.21-1
+Depends: libc
+License: LGPL-2.1
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 62925
+Filename: libexif_0.6.21-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 63092
+SHA256sum: 34a471823d84020b6e95c55fab2876bfa7f00d7487a46e0533d27c82b4a2ca71
+Description:  libexif is a library for parsing, editing, and saving EXIF data. It is
+ intended to replace lots of redundant implementations in command-line
+ utilities and programs with GUIs.
+
+Package: libexpat
+Version: 2.2.9-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 44965
+Filename: libexpat_2.2.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 45681
+SHA256sum: d9b104ec9105a13338f432540e5d68b4d41889323da66df2fe4347e54b7e4e55
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.2.1-3
+Depends: libc
+License: MIT
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5600
+Filename: libffi_3.2.1-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6634
+SHA256sum: 702a5837f8f5aea792b4d3b6e942bbf0d9a0971cd43694c3c5ce34c8c03607fd
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libffmpeg-audio-dec
+Version: 3.2.12-1
+Depends: libc, libpthread, libpthread, zlib, libbz2
+Provides: libffmpeg
+License: LGPL-2.1+ GPL-2+ LGPL-3
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 689036
+Filename: libffmpeg-audio-dec_3.2.12-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 687955
+SHA256sum: 0352552d1471cd36c5f4b41a8836c0264bb4550f2e9a69d7afdce24d2e9c4c4e
+Description:  FFmpeg is a a software package that can record, convert and stream digital
+ audio and video in numerous formats.
+ 
+ FFmpeg licensing / patent issues are complex. It is the reponsibility of the
+ user to understand any requirements in this regard with its usage. See:
+ https://ffmpeg.org/legal.html for further information.
+ .
+ This package contains FFmpeg shared libraries for audio decoding
+
+Package: libfko
+Version: 2.6.9-4
+Depends: libc
+License: GPLv2
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 32529
+Filename: libfko_2.6.9-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 33592
+SHA256sum: 3f6b958f8cf78bcb5255a8d3fa6eeb473ccae6b2b80b5f247029c2970256ca4b
+Description:  Fwknop implements an authorization scheme known as Single Packet Authorization
+ (SPA) for Linux systems running iptables.  This mechanism requires only a
+ single encrypted and non-replayed packet to communicate various pieces of
+ information including desired access through an iptables policy. The main
+ application of this program is to use iptables in a default-drop stance to
+ protect services such as SSH with an additional layer of security in order to
+ make the exploitation of vulnerabilities (both 0-day and unpatched code) much
+ more difficult.
+ This package contains the libfko shared library.
+
+Package: libflac
+Version: 1.3.2-1
+Depends: libc
+License: GFDL-1.2 GPL-2 LGPL-2.1 BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 73049
+Filename: libflac_1.3.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 73691
+SHA256sum: 91a256309c080fd6c6a79c4ab65bee82e787627718289caf1312ce2c3677fa9c
+Description:  Free Lossless Audio Codec library
+
+Package: libfreetype
+Version: 2.9-1
+Depends: libc, zlib, libbz2, libpng
+License: FTL GPL-2.0 MIT ZLIB
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 264858
+Filename: libfreetype_2.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 265447
+SHA256sum: d43550c963fbcb47f6f49abf31361194de6b97d87793df1783dada223c801687
+Description:  The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.
+
+Package: libgcrypt
+Version: 1.8.5-1
+Depends: libc, libgpg-error
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 363134
+Filename: libgcrypt_1.8.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 362152
+SHA256sum: d59d70e15de7fcaf657919edf276a7acf791bc452fd669f913899baf904e8648
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
+Package: libgd
+Version: 2.2.5-1
+Depends: libc, libjpeg, libpng
+License: MIT
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 87654
+Filename: libgd_2.2.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 87147
+SHA256sum: 5193c9eff8316258ee0eb622104cead577f286d4ed8e392ba4c8afaba4452323
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
+Package: libgdbm
+Version: 1.11-1
+Depends: libc
+License: GPL-3.0+
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15732
+Filename: libgdbm_1.11-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16505
+SHA256sum: 9fba55102fae2844eba1fa060bf3ef9938201eb9e567a7c45a903402ee1ab9f1
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libgnutls
+Version: 3.5.19-1
+Depends: libc, libnettle, libgmp
+License: LGPLv2.1+
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 511809
+Filename: libgnutls_3.5.19-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 511051
+SHA256sum: 5150532829812cc44f51ebbac5d1d339fe52d8866a31bf0a9a55938027e45b06
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libgpg-error
+Version: 1.36-3
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 43196
+Filename: libgpg-error_1.36-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 44087
+SHA256sum: 3b006ea1f164d2546393a619b693604c3bbed261f06ecf40202ea603e95c71d4
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
+
+Package: libhttp-parser
+Version: 2.9.2-2
+Depends: libc
+License: MIT
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15132
+Filename: libhttp-parser_2.9.2-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16119
+SHA256sum: 2a35c883b2a9da960909a2994de41b6b6ae0f1d6165b0f7e040362660cd4633c
+Description:  A parser for HTTP messages written in C. It parses both requests and responses.
+ The parser is designed to be used in performance HTTP applications.
+ It does not make any syscalls nor allocations, it does not buffer data,
+ it can be interrupted at anytime. Depending on your architecture,
+ it only requires about 40 bytes of data per message stream
+ (in a web server that is per connection).
+
+Package: libid3tag
+Version: 0.15.1b-4
+Depends: libc, zlib
+License: GPL-2
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24753
+Filename: libid3tag_0.15.1b-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 25409
+SHA256sum: bac44313e98e0550aaf9833d2bbee5696f3929cbf14ee28ccab5f632bfe0d2c3
+Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
+ ID3v1 and the various versions of ID3v2.
+
+Package: libjpeg
+Version: 9a-1
+Depends: libc
+License: IJG
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 93061
+Filename: libjpeg_9a-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 93701
+SHA256sum: da4dd1711a36c0bbcb74611822e6085db393ca400b7b8e8b850d66ac859373dc
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: libkmod
+Version: 20-1
+Depends: libc, zlib
+License: LGPL-2.1+
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 29377
+Filename: libkmod_20-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30119
+SHA256sum: 956237affb1941e3cecc7d6dc1efe56a07099f6835f6a9be8536b2e94569327d
+Description:  Linux kernel module handling (library)
+
+Package: liblxc
+Version: 2.1.1-2
+Depends: libc, lxc, libcap, libpthread
+License: LGPL-2.1+ BSD-2-Clause GPL-2.0
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 233280
+Filename: liblxc_2.1.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 229085
+SHA256sum: 818d13b4936fbcc8fb257e217ea5958a409e75ed466f58414271e90de8daa7ac
+Description:  LXC userspace library
+
+Package: libmilter-sendmail
+Version: 8.15.2-2
+Depends: libc, libpthread
+License: Sendmail
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19647
+Filename: libmilter-sendmail_8.15.2-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20444
+SHA256sum: 4e19ebe6ca5dea124c253f6c96e5b3b8b832fb0d072d7e9c397aec91a412e811
+Description:  The sendmail Mail Filter API (Milter) is designed to allow third-party
+ programs access to mail messages as they are being processed in order to
+ filter meta-information and content.
+
+Package: libminiupnpc
+Version: 2.0.20170509-1
+Depends: libc
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19883
+Filename: libminiupnpc_2.0.20170509-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20614
+SHA256sum: 6549106a5fdfd97a454a40a59e7c09c4512b5f33c27ba183c61dc7dc3bb58f76
+Description:  Lightweight UPnP library
+
+Package: libnatpmp
+Version: 20150609-1
+Depends: libc
+License: BSD-3c
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3173
+Filename: libnatpmp_20150609-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4073
+SHA256sum: a1db55f8c8d5a7b1065091886b5be757f86a9105217223aec2171be10690fc4b
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libnetwork
+Version: 2019-10-15-45c71022-2
+Depends: libc
+License: Apache-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7521795
+Filename: libnetwork_2019-10-15-45c71022-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7510790
+SHA256sum: f158c3f267bd418f8c74419cb6e6428926e8b80e2519e2a0f14537cc9816611f
+Description:  Libnetwork provides a native Go implementation for connecting containers.
+ The goal of libnetwork is to deliver a robust Container Network Model that provides a consistent programming interface and the required network abstractions for applications.
+
+Package: libogg
+Version: 1.3.2-2
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8549
+Filename: libogg_1.3.2-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9500
+SHA256sum: 1b9683c0b7dc805c314fee73b80d550744c44a70e15ef797683f2bb71525c454
+Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
+ compressed bitstream into a more robust, useful form.  For example,
+ the Ogg bitstream makes seeking, time stamping and error recovery
+ possible, as well as mixing several sepearate, concurrent media
+ streams into a single physical bitstream.
+
+Package: libpagekite
+Version: 0.91.171102C-1
+Depends: libc, libopenssl1.1, libpthread, libev
+License: Apache-2.0
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 128346
+Filename: libpagekite_0.91.171102C-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 128481
+SHA256sum: 6ce7d9edb36113af566672271a9cda8b54a84ebab320a289aa8f88a2ef8153ed
+Description:  PageKite is a system for running publicly visible servers (generally
+ web servers) on machines without a direct connection to the Internet,
+ such as mobile devices or computers behind restrictive firewalls.
+ PageKite works around NAT, firewalls and IP-address limitations by
+ using a combination of tunnels and reverse proxies.
+ 
+ This package provides an implementation of the PageKite Protocol in C,
+ optimized for high-performance or embedded applications.
+ 
+ 
+ This package contains the core library
+
+Package: libpcre2-16
+Version: 10.30-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 93809
+Filename: libpcre2-16_10.30-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 94648
+SHA256sum: f01b7d0bd77eec42276233f24f388763718aafc254792647c038cdc63b959ceb
+Description:  A Perl Compatible Regular Expression library (16bit support)
+
+Package: libpcre2
+Version: 10.30-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 103648
+Filename: libpcre2_10.30-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 104432
+SHA256sum: df7b3feb7ca48677682fa05188ebef6b6f1736d2ab9fbfc9707e008b0039afbc
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 82407
+Filename: libpcre_8.41-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 83127
+SHA256sum: 7644cc5c128a07124015b3fc4d9ba4209278bfb5cfbad4b0151e96c7759e5852
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpng
+Version: 1.6.34-1
+Depends: libc, zlib
+License: Libpng GPL-2.0+ BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 82225
+Filename: libpng_1.6.34-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 82960
+SHA256sum: a191699003793cd2338025c3b3c461c9b210979179eb77285fd422d1a8d7dc3b
+Description:  A PNG format files handling library
+
+Package: libprotobuf-c
+Version: 1.3.1-1
+Depends: libc
+License: BSD-2c
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10559
+Filename: libprotobuf-c_1.3.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11412
+SHA256sum: 7953c81f116b6d3a48fa38376189f25ad4c113d4d5e7f4388b18e8c490699df7
+Description:  Runtime library to use Google Protocol Buffers from C applications.
+ Protocol Buffers are a way of encoding structured data in an efficient yet
+ extensible format. Google uses Protocol Buffers for almost all of its
+ internal RPC protocols and file formats.
+
+Package: libqrencode
+Version: 4.0.0-1
+Depends: libc
+License: LGPL-2.1+
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15240
+Filename: libqrencode_4.0.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16076
+SHA256sum: 45f79a6e2dfdcb1465316a6b195bcc1ed6c2e1273e46d6311bc0681c066106b5
+Description:  Libqrencode is a C library for encoding data in a QR Code symbol,
+ a kind of 2D symbology that can be scanned by handy terminals such
+ as a mobile phone with CCD. The capacity of QR Code is up to 7000
+ digits or 4000 characters, and is highly robust.
+
+Package: librrd1
+Version: 1.0.50-2
+Depends: libc, zlib
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 131118
+Filename: librrd1_1.0.50-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 131492
+SHA256sum: 48ce305806d7903f6301a7e44e0dcd648fc1c95232a256b0bbc460b88242cd3f
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains a shared library, used by other programs.
+
+Package: librtlsdr
+Version: 0.5.3-20150608--3
+Depends: libc, libusb-1.0
+License: GPLv2
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18624
+Filename: librtlsdr_0.5.3-20150608--3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19446
+SHA256sum: a7e5367ed2fb09bc7cf8aa118b0d2376ce9efe043dd4a355eece33a317131c6c
+Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be used as
+ an inexpensive SDR.
+ 
+ This package contains the librtlsdr shared library.
+
+Package: libsodium
+Version: 1.0.16-1
+Depends: libc
+License: ISC
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 106008
+Filename: libsodium_1.0.16-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 107124
+SHA256sum: 2897076b9a888d9da6091d565e19fd91568719a9fd98f8be5b4ecbbfa2155a7a
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsqlite3
+Version: 3230100-1
+Depends: libc, libpthread, zlib
+License: PUBLICDOMAIN
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 340497
+Filename: libsqlite3_3230100-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 340975
+SHA256sum: 140e65e65e98bba43f598afd7f7036e166bb826ba19a432db2c3d7abf1aba103
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libtins
+Version: v3.5-1
+Depends: libc, libstdcpp, libpcap
+License: BSD-2-Clause
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 171187
+Filename: libtins_v3.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 171306
+SHA256sum: 304c97b573ba8ca82b38857774f7536b06046b622a9954b6cf363c93c31d58b5
+Description:  libtins is a high-level, multiplatform C++ network packet sniffing and crafting library.
+
+Package: libunbound
+Version: 1.9.5-1
+Depends: libc, libopenssl1.1
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 343419
+Filename: libunbound_1.9.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 337942
+SHA256sum: d9ab4a7faf1336828ec7eae46314b45c1f2af3b53d5b7c702f3ed3412ed4864a
+Description:  This package contains the Unbound shared library with basic includes
+ necessary to meet the needs of UCI/LuCI configuration optoins.
+
+Package: libupnp
+Version: 1.6.19-2
+Depends: libc, libpthread
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 82190
+Filename: libupnp_1.6.19-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 82871
+SHA256sum: 4fd5ed8ac56acdc4db03d3541c552efaebd33381537905400447f86891d65b1c
+Description:  The portable SDK for UPnP Devices (libupnp) provides developers with an API and
+ open source code for building control points, devices, and bridges that are
+ compliant with Version 1.0 of the  Universal Plug and Play Device Architecture
+ Specification.
+
+Package: libuv1
+Version: 1.32.0-1
+Depends: libc, libpthread, librt
+Provides: libuv
+License: MIT
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 52476
+Filename: libuv1_1.32.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 53227
+SHA256sum: 8e4d021f96b06b4ea58fb0fe1bb4956a25e19596ca40c11683b98a2cc31dfad6
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libvorbis
+Version: 1.3.6-1
+Depends: libc, libogg
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 179563
+Filename: libvorbis_1.3.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 177924
+SHA256sum: f3d12e7cf3533d68a038de758d6e0f2079fb529808ab3e94f9377b34882ba27b
+Description:  Vorbis is a general purpose audio and music encoding format
+ contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond
+ MPEG audio layer 3. Unlike the MPEG sponsored formats (and other
+ proprietary formats such as RealAudio G2 and Windows' flavor of the
+ month), the Vorbis CODEC specification belongs to the public domain.
+ All the technical details are published and documented, and any
+ software entity may make full use of the format without license
+ fee, royalty or patent concerns.
+
+Package: libwebsockets-full
+Version: 2.4.1-2
+Depends: libc, zlib, libcap, libopenssl1.1, libuv1
+Provides: libwebsockets
+License: LGPL-2.1+exception
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 80235
+Filename: libwebsockets-full_2.4.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 81032
+SHA256sum: 4d24968a451233a23f429dae89c80356f9ae365aa72c679680833119b79961ba
+Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
+
+Package: libxml2
+Version: 2.9.9-3
+Depends: libc, libpthread, zlib
+License: MIT
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 472151
+Filename: libxml2_2.9.9-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 470736
+SHA256sum: 13447ec90378a15896bec134625c1f3a1fa7d3b69075e9d6d2bca0e8e5cff0b7
+Description:  A library for manipulating XML and HTML resources.
+
+Package: libyaml-cpp
+Version: beb44b87-1
+Depends: libc, libstdcpp
+License: MIT
+Section: development
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 79228
+Filename: libyaml-cpp_beb44b87-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 79956
+SHA256sum: 00c916543ca58e066acd7f498d543e0c2a7a894a78e37348888aa0f5fb54106e
+Description:  yaml-cpp is a YAML parser and emitter in C++ matching the YAML 1.2 spec.
+
+Package: libzstd
+Version: 1.3.8-1
+Depends: libc
+License: GPL-2.0-or-later
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 508087
+Filename: libzstd_1.3.8-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 508478
+SHA256sum: 89d31e62dda965f76999465e9e64d690dd7586a98739b3b14d86892eb8e59fed
+Description:  Zstandard - Fast real-time compression algorithm.
+ This package provides libzstd library.
+
+Package: lua-bencode
+Version: 2.1.0-1
+Depends: libc, lua
+License: MIT
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1457
+Filename: lua-bencode_2.1.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2278
+SHA256sum: 2f06f62a851cbbbbf5965a4b2a9db50036b730ece7fba5b345657b261e56a753
+Description:  This is a module for the lua programming language for decoding and encoding
+ bencoded data which can be used to read and write torrent files for bittorrent.
+
+Package: lua-sha2
+Version: 0.2.0-1
+Depends: libc, lua
+License: MIT
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7473
+Filename: lua-sha2_0.2.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8286
+SHA256sum: baf5da51a83d6ebba1d2611b12f894723145f651b9a7610009ae096d7f544e94
+Description:  Lua Binding for the SHA-2 (SHA-256/384/512) BSD-licensed C implementation by Aaron Gifford.
+ Also contains a HMAC implementation in Lua.
+
+Package: luasocket
+Version: 3.0-rc1-20130909-4
+Depends: libc, lua
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 45086
+Filename: luasocket_3.0-rc1-20130909-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 45942
+SHA256sum: 840b322198616c088736fdb7713c6e5f7103cc7eaf536b5d7220fe9db9eee05c
+Description:  LuaSocket is the most comprehensive networking support
+ library for the Lua language. It provides easy access to
+ TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.
+
+Package: luci-app-acme
+Version: 2.8.3-2
+Depends: libc, lua, luci-base, acme
+License: GPL-3.0-only
+Section: luci
+Architecture: all
+Installed-Size: 2389
+Filename: luci-app-acme_2.8.3-2_all.ipk
+Size: 3316
+SHA256sum: 2fbf94abf0cb92e4ee8ac52a1e04fb1032b299039a216e31a944076eb8c9d6ea
+Description:  Control the ACME Letsencrypt certificate interface
+
+Package: luci-app-sqm
+Version: 1.3.0-1
+Depends: libc, lua, luci-base, sqm-scripts
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 4018
+Filename: luci-app-sqm_1.3.0-1_all.ipk
+Size: 4981
+SHA256sum: 9b3c6cda91fc5f5903dcba35ac5aff8a3bc9b1dbfa22167352871f353a837ca6
+Description:  Luci interface for the SQM scripts queue management configuration package.
+
+Package: lxc-attach
+Version: 2.1.1-2
+Depends: libc, lxc, lxc-common, libpthread, libcap, liblxc
+License: LGPL-2.1+ BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5526
+Filename: lxc-attach_2.1.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6311
+SHA256sum: d49d1f7aee15580e11aaa8a267caf16d42e04f76403f6a712620bec2485fb5a5
+Description:  Utility lxc-attach from the LXC userspace tools
+
+Package: lxc-common
+Version: 2.1.1-2
+Depends: libc, lxc
+License: LGPL-2.1+ BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1159
+Filename: lxc-common_2.1.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1953
+SHA256sum: e74b70b4cdd8625b8552aa9fff12f84798376675aa868de403e19bd2b150ddbb
+Description:  LXC common files
+
+Package: lxc-configs
+Version: 2.1.1-2
+Depends: libc, lxc
+License: LGPL-2.1+ BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5169
+Filename: lxc-configs_2.1.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5932
+SHA256sum: d1fba891f9af9f02c2131cdaf59b6901356b1339fcd5af4813e1ee3221ef0259
+Description:  LXC virtual machine common config files
+
+Package: lxc-console
+Version: 2.1.1-2
+Depends: libc, lxc, lxc-common, libpthread, libcap, liblxc
+License: LGPL-2.1+ BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2219
+Filename: lxc-console_2.1.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3026
+SHA256sum: 7766e7fc3c05f7d7b98f94071816b2dfc4f124bcc6129958f83b7ed45a6c94d4
+Description:  Utility lxc-console from the LXC userspace tools
+
+Package: lxc-create
+Version: 2.1.1-2
+Depends: libc, lxc, lxc-common, libpthread, libcap, liblxc, lxc-configs, lxc-hooks, lxc-templates, flock
+License: LGPL-2.1+ BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4457
+Filename: lxc-create_2.1.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5258
+SHA256sum: 26bef555ef253008ba8b8c85357a2462122457dcf6da7ff8d9faa06e3b3cf0d8
+Description:  Utility lxc-create from the LXC userspace tools
+
+Package: lxc-hooks
+Version: 2.1.1-2
+Depends: libc, lxc
+License: LGPL-2.1+ BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4306
+Filename: lxc-hooks_2.1.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5080
+SHA256sum: 56b34f2fd685720c49b89371d0a98d3be3e6aec919bef26b616da1aca0375537
+Description:  LXC virtual machine hooks
+
+Package: lxc-templates
+Version: 2.1.1-2
+Depends: libc, lxc
+License: LGPL-2.1+ BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 124910
+Filename: lxc-templates_2.1.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 125687
+SHA256sum: 70472bb4f46b13074e4c7345b71e17dfff80892fbeb1bdb11e126b39cdd9b34d
+Description:  LXC virtual machine templates
+
+Package: lxc
+Version: 2.1.1-2
+Depends: libc
+License: LGPL-2.1+ BSD-2-Clause GPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 105
+Filename: lxc_2.1.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 915
+SHA256sum: 9543f8486d85548df4f00e3fadbbe578ab3db513c1617af9abd1ba026d6806e4
+Description:  LXC is the userspace control package for Linux Containers, a lightweight
+ virtual system mechanism sometimes described as "chroot on steroids".
+
+Package: minidlna
+Version: 1.2.1-3
+Depends: libc, libpthread, libexif, libjpeg, libsqlite3, libffmpeg, libid3tag, libflac, libvorbis, libuuid
+License: GPL-2.0 BSD-3-Clause
+Section: multimedia
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 124920
+Filename: minidlna_1.2.1-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 125635
+SHA256sum: 1f8ddbb4c1ba8e143f2b4daaa529950cf4c882d369f987a7312784e08e557f6b
+Description:  MiniDLNA (aka ReadyDLNA) is server software with the aim of
+ being fully compliant with DLNA/UPnP-AV clients.
+
+Package: miniupnpc
+Version: 2.0.20170509-1
+Depends: libc, libminiupnpc
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 25977
+Filename: miniupnpc_2.0.20170509-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26699
+SHA256sum: 4a034a282af166c7d74307b3616511604fe44ddddca0e5212b059f2cb5b69529
+Description:  Lightweight UPnP client
+
+Package: miniupnpd
+Version: 2.0.20170421-2
+Depends: libc, iptables, libip4tc1.8.2, libuuid
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 54295
+Filename: miniupnpd_2.0.20170421-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 55215
+SHA256sum: 329068230b055c906f5bdc12ec08f1b2c967e6732bcddaa395af754b5a5ed0b6
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: mjpg-streamer
+Version: r182-10
+Depends: libc, libpthread, libjpeg
+License: GPL-2.0
+Section: multimedia
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 35239
+Filename: mjpg-streamer_r182-10_arm_cortex-a7_neon-vfpv4.ipk
+Size: 36163
+SHA256sum: a529064d69d0e781f07975aebee42eae1d59a0f6356d5776a05630655978c9a3
+Description:  Streaming application for Linux-UVC compatible webcams
+
+Package: musl-fts
+Version: 1.2.7-1
+Depends: libc, libpthread
+License: LGPL-2.1
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4298
+Filename: musl-fts_1.2.7-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5104
+SHA256sum: 6cf238b430ee70f383e7b531792ff3ab5492cbd9106be5100998032f8141d6d5
+Description:  The musl-fts package implements the fts(3) functions fts_open, fts_read, fts_children, fts_set and fts_close, which are missing in musl libc.
+
+Package: mwan3
+Version: 2.6.18-1
+Depends: libc, ip, ipset, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+License: GPLv2
+Section: net
+Architecture: all
+Installed-Size: 11104
+Filename: mwan3_2.6.18-1_all.ipk
+Size: 12117
+SHA256sum: a58e0f04c3e04d5029492efd5783ab32882898aa0a7d473ccf8493101dcdd860
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: natpmpc
+Version: 20150609-1
+Depends: libc, libnatpmp
+License: BSD-3c
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3247
+Filename: natpmpc_20150609-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4145
+SHA256sum: ed72fedb0d1b711b6cf16aef815e0c3ee73708f85eb33dda4726267e0d874e80
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the natpmp client.
+
+Package: netdata
+Version: 1.20.0-1
+Depends: libc, zlib, libuuid, libmnl, libjson-c, libuv1
+License: GPL-3.0-or-later
+Section: admin
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1621828
+Filename: netdata_1.20.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1621523
+SHA256sum: e0a26b9b4bb716c409d787a7aaa17514ab3a10a8eeaf53b990b6b4a61aa264fe
+Description:  netdata is a highly optimized Linux daemon providing real-time performance
+ monitoring for Linux systems, applications and SNMP devices over the web.
+ 
+ If you want to use Python plugins install python3, python3-yaml and
+ python3-urllib3
+
+Package: nginx
+Version: 1.16.1-2
+Depends: libc, libpcre, zlib, libpthread
+License: 2-clause BSD-like license
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 334581
+Filename: nginx_1.16.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 322207
+SHA256sum: 260ebc02ddbece9a67a8a7593b20cbfcee86e9d01dbfe1f6906bb121cb893953
+Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. (Some module require SSL module enable to show up in config menu)
+
+Package: nlbwmon
+Version: 2019-06-06-4574e6e8-1
+Depends: libc, libubox20170601, libnl-tiny, zlib, kmod-nf-conntrack-netlink
+License: ISC
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18442
+Filename: nlbwmon_2019-06-06-4574e6e8-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19295
+SHA256sum: a45a0351997a941d28af3e5367ea811ef794a3520a0f874cc14ce78a0322bcd9
+Description:  LEDE Traffic Usage Monitor
+
+Package: noddos
+Version: 0.5.5-4
+Depends: libc, libstdcpp, libnetfilter-conntrack, libcurl4, libopenssl1.1, openssl-util, ca-bundle, wget, bzip2, libtins, ipset, libpthread, libyaml-cpp
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 188520
+Filename: noddos_0.5.5-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 189381
+SHA256sum: 03688b9b9e61cc5c391c5c1e92e0b79e6d23c37f998392f24cd04ee5f7a7b617
+Description:  Noddos discovers what devices you have in your network and tailors the firewall rules based on whitelisted flows for that device. Noddos downloads the firewall rules periodically from the cloud. In order to support creating these firewall rules, noddos can, after opt-in, upload anonimized traffic statistics for each device to the cloud. The Luci interface is available in the luci-apps-noddos package. For information, visit https://www.noddos.io/
+
+Package: node
+Version: v12.15.0-1
+Depends: libc, libstdcpp, libopenssl1.1, zlib, libnghttp2-14, libuv1, libhttp-parser, libcares, libatomic
+License: MIT
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6704590
+Filename: node_v12.15.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6686908
+SHA256sum: 0100be77896c2fc4858c5958d41bf6dcb75e7bc4c9e08ccfc9a5e78afb825920
+Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
+ an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
+ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+ *** Requires GCC/G++ Multilib on host system to build 32-bit target ***
+
+Package: ntfs-3g
+Version: 2017.3.23-1-fuseint
+Depends: libc, kmod-fuse, libpthread
+License: GPL-2.0 LGPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 185501
+Filename: ntfs-3g_2017.3.23-1-fuseint_arm_cortex-a7_neon-vfpv4.ipk
+Size: 186251
+SHA256sum: 55479e6abeb3ae509bb21a3eb1eed54bb3f5ed47dff9376a52b037a4b4f2d450
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: ntpclient
+Version: 2010_365-1
+Depends: libc, librt
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10482
+Filename: ntpclient_2010_365-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11264
+SHA256sum: 503ee8f1d191c0b1a17a1cb86c6219595ee33bfba26473f2f81d7799787405c2
+Description:  NTP client for setting system time from NTP servers.
+
+Package: ocserv
+Version: 0.12.6-1
+Depends: libc, libhttp-parser, libgnutls, certtool, libncurses6, libreadline8, libprotobuf-c, libev, kmod-tun
+License: GPLv2+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 165604
+Filename: ocserv_0.12.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 166313
+SHA256sum: fc98788468ccd35bdb79b681ec386e4d1f4f812e8777a23aca34dd3b1427755c
+Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is to be
+ a secure, small, fast and configurable VPN server. It implements the
+ OpenConnect SSL VPN protocol, and has also (currently experimental)
+ compatibility with clients using the AnyConnect SSL VPN protocol. The
+ OpenConnect VPN protocol uses the standard IETF security protocols such
+ as TLS 1.2, and Datagram TLS to provide the secure VPN service.
+
+Package: openconnect
+Version: 7.08-8
+Depends: libc, libxml2, kmod-tun, resolveip, vpnc-scripts, libgnutls
+License: LGPLv2.1+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 88519
+Filename: openconnect_7.08-8_arm_cortex-a7_neon-vfpv4.ipk
+Size: 89290
+SHA256sum: 80ceea3bccca868d6cd67a0af336ec16dd1bcadc5a99fbb0c15f9637c67dfe18
+Description:  A VPN client compatible with Cisco's AnyConnect SSL VPN, ocserv and Juniper (Pulse secure).
+ 
+ OpenConnect is a client that follows the Cisco's AnyConnect SSL VPN protocol,
+ which is supported by IOS 12.4(9)T or later on Cisco SR500, 870, 880, 1800,
+ 2800, 3800, 7200 Series and Cisco 7301 Routers, as well as the OpenConnect
+ VPN server. It has later been ported to support the Juniper SSL VPN which
+ is now known as Pulse Connect Secure.
+
+Package: openssh-sftp-server
+Version: 8.0p1-2
+Depends: libc, libopenssl1.1, zlib
+License: BSD ISC
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 38658
+Filename: openssh-sftp-server_8.0p1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 39429
+SHA256sum: 7147985f11a260467ef279ab4dcd5707f09e5ce326192c7734f4d7089b56982a
+Description:  OpenSSH SFTP server.
+
+Package: p910nd
+Version: 0.97-5
+Depends: libc
+License: GPLv2
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5589
+Filename: p910nd_0.97-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6570
+SHA256sum: 2847fcda70f4f3c29d5b9709722eb460c67b4c9829b4d1cadf01eb5bc24e0614
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: pagekitec
+Version: 0.91.171102C-1
+Depends: libc, libpagekite
+License: Apache-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4330
+Filename: pagekitec_0.91.171102C-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5442
+SHA256sum: 1c022c6546fd05c47d7883996715eaf53a58ac0a32029ae33e4d61a7ff50687d
+Description:  PageKite is a system for running publicly visible servers (generally
+ web servers) on machines without a direct connection to the Internet,
+ such as mobile devices or computers behind restrictive firewalls.
+ PageKite works around NAT, firewalls and IP-address limitations by
+ using a combination of tunnels and reverse proxies.
+ 
+ This package provides an implementation of the PageKite Protocol in C,
+ optimized for high-performance or embedded applications.
+ 
+ 
+ This package contains a basic backend useful for exposing http/ssh servers.
+ 
+ Basic UCI support for configuring this backend is also included.
+
+Package: pciutils
+Version: 3.5.6-1
+Depends: libc, libkmod, zlib
+License: GPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 310822
+Filename: pciutils_3.5.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 311623
+SHA256sum: 0f9a214f65be42f133225694a49ce3a7e00a9cc1291d04b81ce4d670ad374065
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices
+
+Package: perl-text-csv_xs
+Version: 1.35+perl5.28-1
+Depends: libc, perl, perlbase-essential, perlbase-config, perlbase-io, perlbase-dynaloader
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 34052
+Filename: perl-text-csv_xs_1.35+perl5.28-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 34986
+SHA256sum: 9a9da4ec694ece03184474e3c82a77fa5c56e86f5d63337ffac8b5a852b3a7b6
+Description:  Text comma-separated values manipulation routines
+
+Package: perl
+Version: 5.28.0-1
+Depends: libc, libpthread
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1034780
+Filename: perl_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1025294
+SHA256sum: 0286c82adef36b46cef397ca9c3cfd48a52bf5551c80e51845e4e5a74c0ce4a8
+Description:  Perl is a stable, cross platform programming language.
+ It is used for mission critical projects in the public and private sectors
+ and is widely used to program web applications of all needs.
+
+Package: perlbase-autoloader
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2255
+Filename: perlbase-autoloader_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3098
+SHA256sum: e620e9b87b136467244bcb5c9794f8eaa6384dae305e4afe9ab90144704b355a
+Description:  AutoLoader perl module
+
+Package: perlbase-autouse
+Version: 5.28.0-1
+Depends: libc, perl
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1092
+Filename: perlbase-autouse_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1901
+SHA256sum: 56e78ff6f196a77ace33c9d737fe06e4e6e0e81d5236db7df8ab5626e0309405
+Description:  autouse perl module
+
+Package: perlbase-base
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3553
+Filename: perlbase-base_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4349
+SHA256sum: 052550eed772221a5c06d0b8f200b4fe63ea46499a856baf4c528ab75a5e178e
+Description:  base perl module
+
+Package: perlbase-bytes
+Version: 5.28.0-1
+Depends: libc, perl
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 626
+Filename: perlbase-bytes_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1432
+SHA256sum: 3c5a2c9216ee639e29cd26d5909605bee422e6dfc79487c140e46667f6e798fd
+Description:  bytes perl module
+
+Package: perlbase-class
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2264
+Filename: perlbase-class_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3069
+SHA256sum: dac1369b03ab395878e124731f5f2ca3703c6a8dbab3691c0d411136fb1ce05b
+Description:  Class perl module
+
+Package: perlbase-config
+Version: 5.28.0-1
+Depends: libc, perl
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17024
+Filename: perlbase-config_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17800
+SHA256sum: 02be18a0e4756635ea403efb6dafc44799e22a3630e205e7c7aeabefaff9e6af
+Description:  Config perl module
+
+Package: perlbase-cwd
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10277
+Filename: perlbase-cwd_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11080
+SHA256sum: dde1186de9ea9c92af40fbd9458446e70043758aceb9c16d6da310fde2626e2c
+Description:  Cwd perl module
+
+Package: perlbase-digest
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-dynaloader, perlbase-essential, perlbase-fcntl, perlbase-integer
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 28905
+Filename: perlbase-digest_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 29701
+SHA256sum: f9906006a58811fcd7005d522b15702949a4f13043148f5f08692677c8f4547a
+Description:  Digest perl module
+
+Package: perlbase-dynaloader
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-config
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3694
+Filename: perlbase-dynaloader_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4505
+SHA256sum: 1a907bea917177d509c8b2fbaf84f8c581b049e95c150f7bb6635ab7bf969c10
+Description:  DynaLoader perl module
+
+Package: perlbase-errno
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-config, perlbase-essential
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2441
+Filename: perlbase-errno_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3274
+SHA256sum: 1f966909003380b875cb62cc69a3810d6afea3c3a1e6723a0d2a44a473faa743
+Description:  Errno perl module
+
+Package: perlbase-essential
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-config
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 22474
+Filename: perlbase-essential_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 23292
+SHA256sum: 898a719e4b30b6a1efc243e21a1a08b417509fbfd2fbd5be9b3d87dc261ea5d9
+Description:  essential perl module
+
+Package: perlbase-fcntl
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5570
+Filename: perlbase-fcntl_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6382
+SHA256sum: aaf011ac48aba4d8f9de27b9284a5ba841b9514dc7f1d3e80eac6667b8c2daf2
+Description:  Fcntl perl module
+
+Package: perlbase-file
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-class, perlbase-config, perlbase-cwd, perlbase-errno, perlbase-essential, perlbase-fcntl, perlbase-filehandle, perlbase-io, perlbase-locale, perlbase-params, perlbase-scalar, perlbase-symbol, perlbase-xsloader
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 71126
+Filename: perlbase-file_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 72135
+SHA256sum: ff18a47000ab94be2938f710ac9bab570f361a9a3fbb0a7b0309edf005d8777d
+Description:  File perl module
+
+Package: perlbase-filehandle
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential, perlbase-io
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1010
+Filename: perlbase-filehandle_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1845
+SHA256sum: 678b42a396611c9bda43d884a72a897a253135e951fa0b2327f018846e286fd1
+Description:  FileHandle perl module
+
+Package: perlbase-findbin
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-cwd, perlbase-essential, perlbase-file
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1147
+Filename: perlbase-findbin_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1984
+SHA256sum: 8aa09839b0daab6bb387ece5dea65baca9f34857965ccc3f46671f5550c1a38b
+Description:  FindBin perl module
+
+Package: perlbase-getopt
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13233
+Filename: perlbase-getopt_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14057
+SHA256sum: 15b8e72d86862ea4b5194c444ab010b2c119d03a748a42288fb8dbda83e8e81f
+Description:  Getopt perl module
+
+Package: perlbase-hash
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential, perlbase-scalar, perlbase-xsloader
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13512
+Filename: perlbase-hash_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14317
+SHA256sum: 7818f4364023fb41abfc77512188e28f78a5125cc30c1a1e78d2b6d4f9ac3e5f
+Description:  Hash perl module
+
+Package: perlbase-i18n
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential, perlbase-posix, perlbase-xsloader
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19783
+Filename: perlbase-i18n_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20622
+SHA256sum: c29f8da4c889dbfe2b136ef91e038416c72a115291b2ab1bfd9956c2393409c6
+Description:  I18N perl module
+
+Package: perlbase-integer
+Version: 5.28.0-1
+Depends: libc, perl
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 316
+Filename: perlbase-integer_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1116
+SHA256sum: c5a3849c474d0233d4046c4dcfda4f2b4cf30930af7e3c4de99906157ad043ab
+Description:  integer perl module
+
+Package: perlbase-io
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-base, perlbase-bytes, perlbase-config, perlbase-errno, perlbase-essential, perlbase-fcntl, perlbase-list, perlbase-posix, perlbase-scalar, perlbase-selectsaver, perlbase-socket, perlbase-symbol, perlbase-tie, perlbase-xsloader
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 67261
+Filename: perlbase-io_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 68220
+SHA256sum: e54f0274c2184f89bcc01a050ea41587009d055ea2d1894f7d0f7f7c0fba322c
+Description:  IO perl module
+
+Package: perlbase-list
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17194
+Filename: perlbase-list_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18033
+SHA256sum: 063edf829d16a3fdc4111c80fa83936931763bed0989f6ee2d8c6ef628044aa3
+Description:  List perl module
+
+Package: perlbase-locale
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential, perlbase-i18n, perlbase-integer, perlbase-utf8
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 337530
+Filename: perlbase-locale_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 310303
+SHA256sum: e8375b74068821a6ca2974eb5a045081cf1096d2283fa00531a7a76396592e2e
+Description:  Locale perl module
+
+Package: perlbase-params
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential, perlbase-locale
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3287
+Filename: perlbase-params_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4101
+SHA256sum: 02c96b1fbe8cf3c85cc351831bcc634aca50064414930df09f095c5f604c54b9
+Description:  Params perl module
+
+Package: perlbase-posix
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential, perlbase-fcntl, perlbase-tie, perlbase-xsloader
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 36754
+Filename: perlbase-posix_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 37468
+SHA256sum: 3a641f3502c76938e7f79454a96ca58685f5bb3a1af88892a68a19a5a9200fe8
+Description:  POSIX perl module
+
+Package: perlbase-re
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 229074
+Filename: perlbase-re_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 229630
+SHA256sum: b131c77cb0ee82112722f1abcf0da57e01c4139befb2dbe970f283cfaf1075db
+Description:  re perl module
+
+Package: perlbase-scalar
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential, perlbase-list
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 999
+Filename: perlbase-scalar_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1809
+SHA256sum: 2a309705f177a0caa72ba812a860796a06c612985ed97e87143d68d23799ba89
+Description:  Scalar perl module
+
+Package: perlbase-selectsaver
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential, perlbase-symbol
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 440
+Filename: perlbase-selectsaver_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1276
+SHA256sum: a96e59406e5a2a47080395a26eb617571f6a655ba502f2eb0336fca7294dacfa
+Description:  SelectSaver perl module
+
+Package: perlbase-socket
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16562
+Filename: perlbase-socket_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17322
+SHA256sum: 4f341818bcee4f236008fc1f6428202de0f6b461c01fb848c353c7ebd81d5b96
+Description:  Socket perl module
+
+Package: perlbase-symbol
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1119
+Filename: perlbase-symbol_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1944
+SHA256sum: 04c4221c351a03311379eb332f4173440966fd1691485245f8b6f59cda5453e7
+Description:  Symbol perl module
+
+Package: perlbase-tie
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential, perlbase-fcntl, perlbase-xsloader
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21479
+Filename: perlbase-tie_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 22302
+SHA256sum: f18db56936eb024232191b138e59c1d20ae9053bd8a2af41157489129764ab66
+Description:  Tie perl module
+
+Package: perlbase-unicore
+Version: 5.28.0-1
+Depends: libc, perl
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 668505
+Filename: perlbase-unicore_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 622353
+SHA256sum: ae66028b956d05e0dec8327fdcc37db6453036857c960d17556f1e87e989bc6b
+Description:  unicore perl module
+
+Package: perlbase-utf8
+Version: 5.28.0-1
+Depends: libc, perl, perlbase-essential, perlbase-re, perlbase-unicore
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8893
+Filename: perlbase-utf8_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9751
+SHA256sum: 39073a72db919b7fa02cb1260f10891dc555f12446ab9d0fae3842e0bb81b47c
+Description:  utf8 perl module
+
+Package: perlbase-xsloader
+Version: 5.28.0-1
+Depends: libc, perl
+License: GPL-1.0+ Artistic-1.0-Perl
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1737
+Filename: perlbase-xsloader_5.28.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2558
+SHA256sum: 8f0abaafd07525461b117b499292cc9b6c94537972e5af048a3f7a3b8716af18
+Description:  XSLoader perl module
+
+Package: php7-fpm
+Version: 7.2.9-1
+Depends: libc, php7
+License: PHPv3.01
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1310730
+Filename: php7-fpm_7.2.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1309091
+SHA256sum: f05b0d46b2b1c7a8dfc44e3195360a705adee2cb4c926878dba05a69e924bb6e
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the FastCGI Process Manager of the PHP7 interpreter.
+
+Package: php7-mod-curl
+Version: 7.2.9-1
+Depends: libc, php7, libcurl4
+License: PHPv3.01
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 27755
+Filename: php7-mod-curl_7.2.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 28473
+SHA256sum: 50e788277c425999e12bef4c24c61cee0c084ac67985019656806c2cfa2b6ed7
+Description:  cURL shared module
+
+Package: php7-mod-gd
+Version: 7.2.9-1
+Depends: libc, php7, libjpeg, libpng, libfreetype
+License: PHPv3.01
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 90539
+Filename: php7-mod-gd_7.2.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 91210
+SHA256sum: b09a1fea7b88bb2683d13de530af909ec52d08472f8c4a631cf766ab4b71f676
+Description:  GD graphics shared module
+
+Package: php7-mod-iconv
+Version: 7.2.9-1
+Depends: libc, php7
+License: PHPv3.01
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 14787
+Filename: php7-mod-iconv_7.2.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15541
+SHA256sum: eff736834a301e21d6d59ed0b386981a949f028391c0f530ebcf6c234a92c366
+Description:  iConv shared module
+
+Package: php7-mod-json
+Version: 7.2.9-1
+Depends: libc, php7
+License: PHPv3.01
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15409
+Filename: php7-mod-json_7.2.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16099
+SHA256sum: 89c6f70cbd057c9c11fca03599c2d819e239a738c0d7219f4561af509404df45
+Description:  JSON shared module
+
+Package: php7-mod-mbstring
+Version: 7.2.9-1
+Depends: libc, php7
+License: PHPv3.01
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 658284
+Filename: php7-mod-mbstring_7.2.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 647558
+SHA256sum: 151400cfc685be1f1f7cfb6eb605b7b246979f30e2d517004413b7c02704b2dc
+Description:  MBString shared module
+
+Package: php7-mod-opcache
+Version: 7.2.9-1
+Depends: libc, php7
+License: PHPv3.01
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 149650
+Filename: php7-mod-opcache_7.2.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 149389
+SHA256sum: a1b90a317ec77a0af958f94ff90dc2eb0a27e1408c163877ed9920ff49fd809a
+Description:  OPcache shared module
+
+Package: php7-mod-session
+Version: 7.2.9-1
+Depends: libc, php7
+License: PHPv3.01
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 29616
+Filename: php7-mod-session_7.2.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30170
+SHA256sum: e6788e6d6477a15cc794bad59d0a0cb1edb1d43e4e582470a0a413c9a780b6d6
+Description:  Session shared module
+
+Package: php7-mod-zip
+Version: 7.2.9-1
+Depends: libc, php7, zlib
+License: PHPv3.01
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 46802
+Filename: php7-mod-zip_7.2.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 47251
+SHA256sum: 11a474aa7fbea2bdef68738cfed1e0379208678e8149165c7f8628007788bf82
+Description:  ZIP shared module
+
+Package: php7
+Version: 7.2.9-1
+Depends: libc, libpcre, zlib
+License: PHPv3.01
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2199
+Filename: php7_7.2.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3228
+SHA256sum: 584da0cd964a7d7a87e3caa095686624fe61b572a36c570219680ac18fe80ef7
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains only the PHP config file. You must actually choose
+ your PHP flavour (cli, cgi or fastcgi).
+ 
+ Please note, that installing php5 and php7 in parallel on the same target
+ is not supported in OpenWrt/LEDE.
+
+Package: polipo
+Version: 1.1.1-2
+Depends: libc
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 99656
+Filename: polipo_1.1.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 100632
+SHA256sum: 0488e107d7c66069ff17823a82f3beaf6da3cef7b63720b6515976ca3aef9476
+Description:  Polipo is a small and fast caching web proxy (a web cache, an HTTP proxy,
+ a proxy server). While Polipo was designed to be used by one person or a
+ small group of people, there is nothing that prevents it from being used
+ by a larger group.
+
+Package: pppossh
+Version: 2
+Depends: libc, ppp, resolveip
+License: GPLv2
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 976
+Filename: pppossh_2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1782
+SHA256sum: ba5f9b1b74b6b2ed7bdafe47d3897e82453a07a9b543fdb6051a13d6719129f9
+Description:  This package adds protocol support for PPP over SSH.  The protocol name is
+ 'pppossh' as in netifd interface config option 'proto'.
+
+Package: pptpd
+Version: 1.4.0-3
+Depends: libc, kmod-ppp, kmod-gre, kmod-mppe, ppp
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30524
+Filename: pptpd_1.4.0-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 31327
+SHA256sum: b95ca33deb0daae58bda131da2a021d9a33358f0a636352188e0bd5db0fb2263
+Description:  PopTop pptp server
+
+Package: privoxy
+Version: 3.0.26-4
+Depends: libc, libpcre, libpthread, zlib
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 195036
+Filename: privoxy_3.0.26-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 195544
+SHA256sum: bd7813f7e4b0d1e1240cd08b682704a96b053632a6c6b9add4311df6857fce4a
+Description:  Privoxy WEB Proxy - Homepage: www.privoxy.org
+
+Package: python-base
+Version: 2.7.17-1
+Depends: libc, libpthread, zlib
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 718993
+Filename: python-base_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 714939
+SHA256sum: 3d1c676f9bc4057f4d2ffb06069a2e16e16df88c02177a228c2c892b1831eb07
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python-codecs
+Version: 2.7.17-1
+Depends: libc, python-light
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 693687
+Filename: python-codecs_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 678427
+SHA256sum: cc302f092358aabfb94da16712df405ab88345b4b9c08ebf43e8eca4a4e94579
+Description:  Python 2.7 codecs + unicode support
+
+Package: python-compiler
+Version: 2.7.17-1
+Depends: libc, python-light
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 59814
+Filename: python-compiler_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 60781
+SHA256sum: eb32dc4fdd489e615a3e2b10c1170a5a50f6b1f1318a3465ed8cbc488cdbdaba
+Description:  Python 2.7 compiler module
+
+Package: python-ctypes
+Version: 2.7.17-1
+Depends: libc, python-light
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 60814
+Filename: python-ctypes_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 61663
+SHA256sum: 2c2b42d3cc882b5d0ee76a0ab073469c8c7ed729dc75e0b7b7469c6a1055d5b7
+Description:  Python 2.7 ctypes module
+
+Package: python-db
+Version: 2.7.17-1
+Depends: libc, python-light, libdb47
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 71890
+Filename: python-db_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 72325
+SHA256sum: 964270731e7ef1c35ef0f88dd83141c6dbde5d5c60c1571ce23ebd34c4b942c4
+Description:  Python 2.7 db module
+
+Package: python-decimal
+Version: 2.7.17-1
+Depends: libc, python-light
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 48937
+Filename: python-decimal_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 49851
+SHA256sum: e6b0e82519205f468d6ff6703a44c32528fec817641b37ffeca7a1bffbf01492
+Description:  Python 2.7 decimal module
+
+Package: python-distutils
+Version: 2.7.17-1
+Depends: libc, python-light
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 174749
+Filename: python-distutils_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 175732
+SHA256sum: 82341b0cfc56733c2add5eb0daf8d5b4dc64081e34e83fb5e4601137477b0520
+Description:  Python 2.7 distutils
+
+Package: python-email
+Version: 2.7.17-1
+Depends: libc, python-light
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 50270
+Filename: python-email_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 51172
+SHA256sum: b63d1bc121d59def2e4b3a77d59d86f2f37fb29f5b256ab5b9876a3d7821f92d
+Description:  Python 2.7 email module
+
+Package: python-gdbm
+Version: 2.7.17-1
+Depends: libc, python-light, libgdbm
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5356
+Filename: python-gdbm_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6196
+SHA256sum: a5b96bb23d8df569cfd5b19ca555e2dd560f651659e2ec67cbf3b11cf2a5bb3a
+Description:  Python 2.7 gdbm module
+
+Package: python-light
+Version: 2.7.17-1
+Depends: libc, python-base, libffi, libbz2
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1420572
+Filename: python-light_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1420005
+SHA256sum: 3c5f1fab823c5e1aa150fa56b8de1e95858cb53c67486e66f90957bf013b5563
+Description:  This package is essentially the python-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python-logging
+Version: 2.7.17-1
+Depends: libc, python-light
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 42716
+Filename: python-logging_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 43659
+SHA256sum: 657fed64e160c5499d2f0f4d09b110dffa99af9b2defec8fc4fb01cc4c4497e4
+Description:  Python 2.7 logging module
+
+Package: python-multiprocessing
+Version: 2.7.17-1
+Depends: libc, python-light
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 64274
+Filename: python-multiprocessing_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 65154
+SHA256sum: 03950d6c8820148da34c94814b4c03826109c40061645d38bbc0d4cfe9580068
+Description:  Python 2.7 multiprocessing
+
+Package: python-ncurses
+Version: 2.7.17-1
+Depends: libc, python-light, libncurses6
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 31484
+Filename: python-ncurses_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 32013
+SHA256sum: c29604d8cc27ea78e1ad553c200af8d07dccb9e729d5d5820781bc68b7feba2b
+Description:  Python 2.7 ncurses module
+
+Package: python-openssl
+Version: 2.7.17-1
+Depends: libc, python-light, libopenssl1.1
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 32706
+Filename: python-openssl_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 33251
+SHA256sum: 838bb07a77ac9c13f80085ab52cb2d2c0dc69fce7e0b9181857a66a96240c413
+Description:  Python 2.7 SSL module
+
+Package: python-pydoc
+Version: 2.7.17-1
+Depends: libc, python-light
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 183046
+Filename: python-pydoc_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 183811
+SHA256sum: 115edcbeafdec15a97cec61b68f78a4360940953fc1f1e4f64019aaafc25092c
+Description:  Python 2.7 pydoc module
+
+Package: python-sqlite3
+Version: 2.7.17-1
+Depends: libc, python-light, libsqlite3
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26517
+Filename: python-sqlite3_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27147
+SHA256sum: 01bac76660e18598636bf962eb415f2be37b8c18b92e836c70fb03a25504ff4b
+Description:  Python 2.7 sqlite3 module
+
+Package: python-unittest
+Version: 2.7.17-1
+Depends: libc, python-light
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 33401
+Filename: python-unittest_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 34331
+SHA256sum: 0ed7f9c37fa19b78ac7c8a448d06a9ccf2170199cb3d50e342f8f3797127d933
+Description:  Python 2.7 unittest module
+
+Package: python-xml
+Version: 2.7.17-1
+Depends: libc, python-light, libexpat
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 173293
+Filename: python-xml_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 173987
+SHA256sum: ef7303575c1608a39afe9793417774abdfee39a6ca2a19695a96382a247c1e22
+Description:  Python 2.7 xml libs
+
+Package: python
+Version: 2.7.17-1
+Depends: libc, python-light, python-ctypes, python-pydoc, python-multiprocessing, python-codecs, python-sqlite3, python-logging, python-gdbm, python-email, python-distutils, python-openssl, python-xml, python-compiler, python-db, python-decimal, python-unittest, python-ncurses
+License: Python/2.0
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 105
+Filename: python_2.7.17-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1081
+SHA256sum: 34dd0d6f4c5b60cdacd1df46e69bc3798bf733a093e62038bd94e714155e80aa
+Description:  This package contains the (almost) full Python install.
+ It's python-light + all other packages.
+
+Package: qrencode
+Version: 4.0.0-1
+Depends: libc, libqrencode
+License: LGPL-2.1+
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9376
+Filename: qrencode_4.0.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10275
+SHA256sum: d587daf36263fbd6c7dcca5041d7f5832ce11944a1c854f84c4ea5041fe1afbe
+Description:  Qrencode is a C program for encoding data in a QR Code symbol,
+ a kind of 2D symbology that can be scanned by handy terminals such
+ as a mobile phone with CCD. The capacity of QR Code is up to 7000
+ digits or 4000 characters, and is highly robust.
+
+Package: rp-pppoe-common
+Version: 3.12-4
+Depends: libc, ppp
+License: LGPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 401
+Filename: rp-pppoe-common_3.12-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1286
+SHA256sum: b6e933d89b18a229ccb6ffc6b66879fb2e78f3c6c5cda176738bbcc3b93ae5ca
+Description:  Dubbed RP-PPPoE, this open-source product is ideal for Linux users with
+ a DSL "modem" whose Internet service provider uses PPPoE.
+ 
+ This package contains files common to server and relay.
+
+Package: rp-pppoe-relay
+Version: 3.12-4
+Depends: libc, rp-pppoe-common
+License: LGPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 12097
+Filename: rp-pppoe-relay_3.12-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 12934
+SHA256sum: a198b8b9c5ba0a3f3d437e5eefe16aa94745338d7016a382caec9bfa1dd873dd
+Description:  Dubbed RP-PPPoE, this open-source product is ideal for Linux users with
+ a DSL "modem" whose Internet service provider uses PPPoE.
+ 
+ This package contains pppoe-relay.
+
+Package: rp-pppoe-server
+Version: 3.12-4
+Depends: libc, rp-pppoe-common, ppp-mod-pppoe
+License: LGPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 22267
+Filename: rp-pppoe-server_3.12-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 23139
+SHA256sum: 694d8d459658241b9c6a818ee98b80c5ca10bedbb5fffeb3d1de2e45d83829fc
+Description:  Dubbed RP-PPPoE, this open-source product is ideal for Linux users with
+ a DSL "modem" whose Internet service provider uses PPPoE.
+ 
+ This package contains pppoe-server.
+
+Package: rpcd-mod-lxc
+Version: 20171206
+Depends: libc, rpcd, liblxc
+License: ISC
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2768
+Filename: rpcd-mod-lxc_20171206_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3480
+SHA256sum: ff6ee9a616bdfb05099cc97fc345683e46dfd39b4bafc3f69d28c466f74c3f26
+Description:  LXC rpcd module
+
+Package: rrdtool1
+Version: 1.0.50-2
+Depends: libc, librrd1
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10328
+Filename: rrdtool1_1.0.50-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11464
+SHA256sum: 631e695941afddc894c361e7edfdb58266934a9ba2a197fb0996aa0e40d41c4f
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains command line tools used to manage RRDs.
+
+Package: runc
+Version: 1.0.0-rc8+91-3e425f80-1
+Depends: libc
+License: Apache-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2705474
+Filename: runc_1.0.0-rc8+91-3e425f80-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2670475
+SHA256sum: 520ea674818fd97d871a6764009320e143eae98456039a766fca1b32772835f5
+Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.4-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, libpcre
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 49307
+Filename: shadowsocks-libev-ss-local_3.3.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 50106
+SHA256sum: 2dcce35a0101dbab291cbcf328da2191cc26338afbb6072a1bd833f550fe785c
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.4-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 42606
+Filename: shadowsocks-libev-ss-redir_3.3.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 43426
+SHA256sum: f8c33478169be23d600bf0e92ac5e6b297ae39425433b224d5cf01e860119f1e
+Description:  shadowsocks-libev ss-redir
+
+Package: shairplay
+Version: 2016-01-01-1
+Depends: libc, libao, libavahi-compat-libdnssd, libltdl, libpthread
+License: MIT
+Section: sound
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 43383
+Filename: shairplay_2016-01-01-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 44209
+SHA256sum: 674b5a134dfed5a5cb6babb9e59158c043a506a85a325d2364ebf97ce3bc8492
+Description:  Free portable AirPlay server implementation similar to ShairPort.
+
+Package: shorewall-core
+Version: 5.2.0.4-1
+Depends: libc
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 34940
+Filename: shorewall-core_5.2.0.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 35905
+SHA256sum: 6080321ea1746e44d156a053386767765d2d16f1ec5619cbcabb1eef7449100f
+Description:  The Shoreline Firewall, is high-level tool for configuring Netfilter.
+ This package provides the core Shorewall libraries installed in /usr/share/shorewall/,
+ which are required for the rest of the Shorewall packages to work.
+
+Package: shorewall-lite
+Version: 5.2.0.4-1
+Depends: libc, ip, iptables, shorewall-core
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4503
+Filename: shorewall-lite_5.2.0.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5528
+SHA256sum: e023867bf15f53be7273781250d7f6bb5f5851936f1e5c2f76146477529d21be
+Description:  The Shoreline Firewall, is high-level tool for configuring Netfilter.
+ 
+ Shorewall allows for central administration of multiple IPv4 firewalls
+ through use of Shorewall lite. The full Shorewall product is installed
+ on a central administrative system where compiled Shorewall scripts are
+ generated. These scripts are copied to the firewall systems where they
+ run under the control of Shorewall-lite.
+ 
+ Note: This is the IPv4 implementation of Shorewall.
+
+Package: shorewall6-lite
+Version: 5.2.0.4-1
+Depends: libc, ip, ip6tables, shorewall-core
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4239
+Filename: shorewall6-lite_5.2.0.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5282
+SHA256sum: fef5898d7847db43636e8a8fc082149d25952dfa9e0cca1389cd78a288dd1740
+Description:  The Shoreline Firewall, is high-level tool for configuring Netfilter.
+ 
+ Shorewall6 allows for central administration of multiple IPv6 firewalls
+ through use of Shorewall6 lite. The full Shorewall6 product is installed
+ on a central administrative system where compiled Shorewall6 scripts are
+ generated. These scripts are copied to the firewall systems where they
+ run under the control of Shorewall6-lite.
+ 
+ Note: This is the IPv6 implementation of Shorewall.
+
+Package: shorewall6
+Version: 5.2.0.4-1
+Depends: libc, ip, ip6tables, kmod-ipt-hashlimit, kmod-ipt-raw6, iptables-mod-hashlimit, shorewall-core, perl, perlbase-autoloader, perlbase-autouse, perlbase-dynaloader, perlbase-digest, perlbase-findbin, perlbase-getopt, perlbase-hash
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 93148
+Filename: shorewall6_5.2.0.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 94559
+SHA256sum: 376603a745e8c2434d8a0f7db7f699cf9eabd410f87ca6e18008b4b1c54a994c
+Description:  The Shoreline Firewall, is high-level tool for configuring Netfilter.
+ 
+ Shorewall allows for central administration of multiple IPv6 firewalls.
+ This is the full Shorewall product which will compile Shorewall scripts
+ It is not recommended to run it on a low memory system.
+ 
+ Note: This is the IPv6 implementation of Shorewall.
+ This full Shorewal packages also installs Perl which can make the image big (about +2M).
+
+Package: shorewall
+Version: 5.2.0.4-1
+Depends: libc, ip, iptables, kmod-ipt-hashlimit, kmod-ipt-raw, iptables-mod-hashlimit, shorewall-core, perl, perlbase-autoloader, perlbase-autouse, perlbase-dynaloader, perlbase-digest, perlbase-findbin, perlbase-getopt, perlbase-hash
+License: GPL-2.0+
+Section: devel
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 413087
+Filename: shorewall_5.2.0.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 414252
+SHA256sum: df7dfe615a71277b7983954c79e35b1f1e3ec0b2dba00ba62b0abed50f0e6288
+Description:  The Shoreline Firewall, is high-level tool for configuring Netfilter.
+ 
+ Shorewall allows for central administration of multiple IPv4 firewalls.
+ This is the full Shorewall product which will compile Shorewall scripts.
+ It is not recommended to run it on a low memory system.
+ 
+ Note: This is the IPv4 implementation of Shorewall.
+ This full Shorewal packages also installs Perl which can make the image big (about +2M).
+
+Package: simple-adblock
+Version: 1.6.3-5
+Depends: libc
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 5436
+Filename: simple-adblock_1.6.3-5_all.ipk
+Size: 6502
+SHA256sum: f57666433af3336b5234a90d65bb77119a7d50475900001c3e0161c2a81084f4
+Description:  This service provides dnsmasq-based ad blocking.
+ Please see the README for further information.
+ 
+
+Package: snort
+Version: 2.9.11.1-5
+Depends: libc, libdaq, libdnet, libnghttp2-14, libopenssl1.1, libpcap, libpcre, libpthread, libuuid, zlib
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 904571
+Filename: snort_2.9.11.1-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 897082
+SHA256sum: 04c2ab5f7f9a0e4939cfa2f24107e281bcd286d171539aae94e5c91e98e1373a
+Description:  Snort is an open source network intrusion detection and prevention system.
+ It is capable of performing real-time traffic analysis, alerting, blocking
+ and packet logging on IP networks.  It utilizes a combination of protocol
+ analysis and pattern matching in order to detect anomalies, misuse and
+ attacks.
+
+Package: socat
+Version: 1.7.3.2-3
+Depends: libc, libpthread, librt
+License: GPL-2.0 OpenSSL
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 89568
+Filename: socat_1.7.3.2-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 90478
+SHA256sum: 0ad786644a4a1818e6de1cc58bb659c17d9e4110a3c58746ff45eebf43826a27
+Description:  SoCat (for SOcket CAT) establishes two bidirectional byte streams and
+ transfers data between them.
+ Data channels may be files, pipes, devices (terminal or modem, etc.), or
+ sockets (Unix, IPv4, IPv6, raw, UDP, TCP, SSL). It provides forking,
+ logging and tracing, different modes for interprocess communication and
+ many more options.
+
+Package: sqm-scripts-extra
+Version: 2016-06-08-1
+Depends: libc, sqm-scripts
+License: GPLv2
+Section: net
+Architecture: all
+Installed-Size: 2256
+Filename: sqm-scripts-extra_2016-06-08-1_all.ipk
+Size: 3122
+SHA256sum: 51c490c7ef5bb161a4ab34d5a3cebaeb725bf057fc24dc581782b17c8134fe02
+Description:  A set of experimental scripts for sqm-scripts QoS package. The contents of this package may
+ change as new qdiscs like 'cake' are developed and tested.
+
+Package: sqm-scripts
+Version: 1.3.0-1
+Depends: libc, tc, kmod-sched-core, kmod-sched-cake, kmod-ifb, iptables, iptables-mod-ipopt, iptables-mod-conntrack-extra
+License: GPLv2
+Section: net
+Architecture: all
+Installed-Size: 16003
+Filename: sqm-scripts_1.3.0-1_all.ipk
+Size: 16814
+SHA256sum: fc9c3f009cbe6d09761feb770755f8bcd05a0efa43d0dfbcf340b3950bd99b92
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: squid
+Version: 4.6-2
+Depends: libc, libpthread, librt, libltdl, libstdcpp, libatomic, libopenssl1.1
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1945244
+Filename: squid_4.6-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1943502
+SHA256sum: bbbcda6d6177e18ff30ec1e70f89ff7874250d5d049745e973092acfc513d3c1
+Description:  Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more.
+ It reduces bandwidth and improves response times by caching and reusing
+ frequently-requested web pages.
+
+Package: strongswan-charon
+Version: 5.6.3-2
+Depends: libc, strongswan
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 205647
+Filename: strongswan-charon_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 205990
+SHA256sum: 08a48354afa8efc5b5a0ce02bd25b0352e27e3163d669f175c31c92421133de4
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains charon, an IKEv2 keying daemon.
+
+Package: strongswan-ipsec
+Version: 5.6.3-2
+Depends: libc, strongswan
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2865
+Filename: strongswan-ipsec_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3645
+SHA256sum: 69efa25832c4ecebcc98c6c3ffd602e566faf2c9a88ab6c81eac7250f3d4e7db
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains the ipsec utility.
+
+Package: strongswan-minimal
+Version: 5.6.3-2
+Depends: libc, strongswan, strongswan-charon, strongswan-mod-aes, strongswan-mod-gmp, strongswan-mod-hmac, strongswan-mod-kernel-netlink, strongswan-mod-nonce, strongswan-mod-pubkey, strongswan-mod-random, strongswan-mod-sha1, strongswan-mod-socket-default, strongswan-mod-stroke, strongswan-mod-updown, strongswan-mod-x509, strongswan-mod-xcbc
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 105
+Filename: strongswan-minimal_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1019
+SHA256sum: 07e6a6d9095f217ada2b48cd013e0db7074e1492a51ecf4b92b1d14f5bae6da9
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This meta-package contains only dependencies for a minimal IKEv2 setup.
+
+Package: strongswan-mod-aes
+Version: 5.6.3-2
+Depends: libc, strongswan
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 14817
+Filename: strongswan-mod-aes_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15041
+SHA256sum: 0da2b0cc5ab112ddbf2f563c47c3e715939f2d00d98bf7791258ebdbc75f7fb9
+Description:  StrongSwan AES crypto plugin
+
+Package: strongswan-mod-gmp
+Version: 5.6.3-2
+Depends: libc, strongswan, libgmp
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11724
+Filename: strongswan-mod-gmp_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 12461
+SHA256sum: b0916419e6671a985539ff9a0e0c281add67c4c056dc7fecc4282491bce52754
+Description:  StrongSwan libgmp plugin
+
+Package: strongswan-mod-hmac
+Version: 5.6.3-2
+Depends: libc, strongswan
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2320
+Filename: strongswan-mod-hmac_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3063
+SHA256sum: d7e08c0edf06ee41c643a953066eebb7f5430e76212073d66d91978878c4a49e
+Description:  StrongSwan HMAC crypto plugin
+
+Package: strongswan-mod-kernel-netlink
+Version: 5.6.3-2
+Depends: libc, strongswan
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 32072
+Filename: strongswan-mod-kernel-netlink_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 32745
+SHA256sum: b7478daac994fd7a0dd98674f40a65664636abdd899f4d5c33f6873e8dd0511b
+Description:  StrongSwan netlink kernel interface plugin
+
+Package: strongswan-mod-nonce
+Version: 5.6.3-2
+Depends: libc, strongswan
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1473
+Filename: strongswan-mod-nonce_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2223
+SHA256sum: 21eb47fbaa82a3dccd399cd3af3f932518ebba60adf90d4605aaa1f27e4a4e48
+Description:  StrongSwan nonce genereation plugin
+
+Package: strongswan-mod-pubkey
+Version: 5.6.3-2
+Depends: libc, strongswan
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2278
+Filename: strongswan-mod-pubkey_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3014
+SHA256sum: eb77ab748af3df5d9bca71f54d5a7b6202238e813e54819241e8ad9c88671dd1
+Description:  StrongSwan raw public key plugin
+
+Package: strongswan-mod-random
+Version: 5.6.3-2
+Depends: libc, strongswan
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2265
+Filename: strongswan-mod-random_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2996
+SHA256sum: 98b8a0e4270b05f3901ec6f0fcf175f1e4d1fe4e33590c0ff1ad356b6de46dd5
+Description:  StrongSwan RNG plugin
+
+Package: strongswan-mod-sha1
+Version: 5.6.3-2
+Depends: libc, strongswan
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5304
+Filename: strongswan-mod-sha1_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6054
+SHA256sum: 7aa58dc1a647911f71b5970a968cbabfb10cdbfbf1120de3adf0b7133e690f48
+Description:  StrongSwan SHA1 crypto plugin
+
+Package: strongswan-mod-socket-default
+Version: 5.6.3-2
+Depends: libc, strongswan
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5154
+Filename: strongswan-mod-socket-default_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5910
+SHA256sum: fce075e2b28388d90f46f521f77d3e77715b08f8aa9c011265d63307cbf06154
+Description:  StrongSwan default socket implementation for charon plugin
+
+Package: strongswan-mod-stroke
+Version: 5.6.3-2
+Depends: libc, strongswan, strongswan-charon, strongswan-ipsec
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 64417
+Filename: strongswan-mod-stroke_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 65160
+SHA256sum: 94cbc4cfc84c49d69ee03a07b81f4a4214a6f587a9c291344a2369abbcdfcfb7
+Description:  StrongSwan Stroke plugin
+
+Package: strongswan-mod-updown
+Version: 5.6.3-2
+Depends: libc, strongswan
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8649
+Filename: strongswan-mod-updown_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9412
+SHA256sum: 9fbdc925f199425fdb9363461553be90f628d6bc92583ef5df635caeb2c74944
+Description:  StrongSwan updown firewall plugin
+
+Package: strongswan-mod-x509
+Version: 5.6.3-2
+Depends: libc, strongswan
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 28869
+Filename: strongswan-mod-x509_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 29281
+SHA256sum: 39d0fd60faf64c64e615f055aabc7df31ad32ddeb05315cf83f5441e3d95970e
+Description:  StrongSwan x509 certificate plugin
+
+Package: strongswan-mod-xauth-generic
+Version: 5.6.3-2
+Depends: libc, strongswan
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2687
+Filename: strongswan-mod-xauth-generic_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3448
+SHA256sum: 43eba545c3b4aaab939d93c67a219ec2c2b7847c98e02a67dad0dd2cebb475df
+Description:  StrongSwan generic XAuth backend plugin
+
+Package: strongswan-mod-xcbc
+Version: 5.6.3-2
+Depends: libc, strongswan
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2830
+Filename: strongswan-mod-xcbc_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3570
+SHA256sum: 4d5e5bd351c419f789d7f2555eadd3574aa13da40fbc71796388424975e16b5a
+Description:  StrongSwan xcbc crypto plugin
+
+Package: strongswan
+Version: 5.6.3-2
+Depends: libc, libpthread, ip, kmod-crypto-authenc, kmod-ipsec, kmod-ipsec4, kmod-ipsec6, kmod-ipt-ipsec, iptables-mod-ipsec
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 143967
+Filename: strongswan_5.6.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 143234
+SHA256sum: 0dae05c07fdbc7ea0e41f6599403b0055b52236e2a32cf4b087d6007046d28a4
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains shared libraries and scripts.
+
+Package: tini
+Version: 0.18.0-1
+Depends: libc
+License: MIT
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 29308
+Filename: tini_0.18.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30017
+SHA256sum: 26631868f3e2b96d15da6bd44e11ea645ef1aeff5ad81996d705d999267d5897
+Description:  A tiny but valid init process for containers.
+
+Package: tinyproxy
+Version: 1.8.3-2
+Depends: libc
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 29010
+Filename: tinyproxy_1.8.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 29787
+SHA256sum: 8b341068aee64eb00eaea33a12c07b081c0b38f07b8d7ebcfc0eb55a777b08b8
+Description:  Tinyproxy is a lightweight HTTP and HTTPS proxy
+
+Package: transmission-daemon-openssl
+Version: 2.94-8
+Depends: libc, libcurl4, libevent2-7, libminiupnpc, libnatpmp, libpthread, librt, zlib, libopenssl1.1
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 176489
+Filename: transmission-daemon-openssl_2.94-8_arm_cortex-a7_neon-vfpv4.ipk
+Size: 177319
+SHA256sum: c28d64af32643b455c5b8fa7d9869db46ea1c35b34adc0d9d1f3853558324e1f
+Description:  Transmission is a simple BitTorrent client.
+ It features a very simple, intuitive interface
+ on top on an efficient, cross-platform back-end.
+ This package contains the daemon itself.
+
+Package: transmission-web-control
+Version: 2019-07-24-c27e3ba9-1
+Depends: libc, transmission-daemon-openssl
+Conflicts: transmission-web
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 1072625
+Filename: transmission-web-control_2019-07-24-c27e3ba9-1_all.ipk
+Size: 1073544
+SHA256sum: e9d648a7b2f47884ba93fc7f087b11fd73dadbae1304abaa7cb2f257b92f6e65
+Description:  Transmission Web Control is a custom Web UI for Transmission.
+
+Package: travelmate
+Version: 1.2.2-1
+Depends: libc, iwinfo, jshn, jsonfilter, uclient-fetch
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 4999
+Filename: travelmate_1.2.2-1_all.ipk
+Size: 5844
+SHA256sum: 4f99cb011bedf4096de10584883519e6cd69dfa4d427e1fb51bec363715816f0
+Description:  A wlan connection manager for travel router.
+ Please see https://github.com/openwrt/packages/blob/master/net/travelmate/files/README.md for further information.
+ 
+
+Package: ttyd
+Version: 1.4.0-1
+Depends: libc, libopenssl1.1, libjson-c, libpthread, libwebsockets-full
+License: MIT
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 156232
+Filename: ttyd_1.4.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 157046
+SHA256sum: 76bc0c98289df3741260de36c1bbc17c74f43d07da8777d3b57b56f51bf28612
+Description:  ttyd is a command-line tool for sharing terminal over the web.
+
+Package: udpxy
+Version: 2016-09-18-53e4672a7522311c40e9f6110ff256041c52c8b4-1
+Depends: libc
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 31025
+Filename: udpxy_2016-09-18-53e4672a7522311c40e9f6110ff256041c52c8b4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 32130
+SHA256sum: 4964a5adce138bd7279970ff38dc8cf4429695e4f7773b4ee8978beffe3528f6
+Description:  udproxy makes it possible to convert UDP IPTV streams into HTTP
+ streams which can be viewed even over WLANs. HTTP streams do
+ not generate huge amounts of multicast traffic, so a sd stream
+ only takes about 300k. Interesting for peoply who have IPTV at
+ home and do not want to rent multiple decoders from their
+ provider but just use their own streaming client (for example
+ popcornhour/mediatomb/vlc).
+
+Package: unbound-daemon
+Version: 1.9.5-1
+Depends: libc, libopenssl1.1, libunbound
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 118825
+Filename: unbound-daemon_1.9.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 119116
+SHA256sum: 46668b4bea29e3eaadb5e3f0ffd37e8719efe4492be7faf870d5e456679f0493
+Description:  This package contains the Unbound daemon with basic includes
+ necessary to meet the needs of UCI/LuCI configuration optoins.
+
+Package: unzip
+Version: 6.0-6
+Depends: libc
+License: BSD-4-Clause
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 107358
+Filename: unzip_6.0-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 108311
+SHA256sum: bf5cd34cfd80bb8fef71f278136e1f88e1091fc4a05ff3b3d1e8d61654cc4053
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: vnstat
+Version: 1.18-1
+Depends: libc
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 75117
+Filename: vnstat_1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 76172
+SHA256sum: 68e863960ff564e61818fa55c0a7693fa3ed765183466b0dcdd77c9ed94d0c0d
+Description:  vnStat is a network traffic monitor for Linux that keeps a log of daily
+ network traffic for the selected interface(s). vnStat isn't a packet
+ sniffer. The traffic information is analyzed from the /proc -filesystem,
+ so vnStat can be used without root permissions.
+
+Package: vnstati
+Version: 1.18-1
+Depends: libc, vnstat, libgd
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 33669
+Filename: vnstati_1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 34614
+SHA256sum: bed5c39a719e224b1d5af30b5fab0f9ae15e184e745b61e083a1cbf58b4659de
+Description:  The purpose of vnstati is to provide image output support for statistics
+ collected using vnstat(1). However, the image file format is limited to
+ png. All basic outputs of vnStat are supported excluding live traffic
+ features. The image can be outputted either to a file or to standard
+ output.
+
+Package: vpnbypass
+Version: 1.3.1-1
+Depends: libc, ipset, iptables
+Conflicts: vpn-policy-routing
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 2102
+Filename: vpnbypass_1.3.1-1_all.ipk
+Size: 3336
+SHA256sum: 07a73b9cbabb8d7b16a78b58753db266714ac1b5732e74ec0cdc90517345528f
+Description:  This service can be used to enable simple VPN split tunnelling.
+ Supports accessing domains, IP ranges outside of your VPN tunnel.
+ Also supports dedicating local ports/IP ranges for direct
+ internet access (outside of your VPN tunnel).
+ Please see the README for further information.
+
+Package: vpnc-scripts
+Version: 20151220-1
+Depends: libc
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2279
+Filename: vpnc-scripts_20151220-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3075
+SHA256sum: 4a26da3ec65d06102fb0a7bb298f4578bb75941acafc7bdcacbc274f434dec4c
+Description:  This package contains the vpnc-script which is used by vpnc
+ and OpenConnect to configure the tunnel interface.
+
+Package: vpnc
+Version: 0.5.3.r550-6
+Depends: libc, libgpg-error, libgcrypt, kmod-tun, libgnutls, vpnc-scripts, resolveip
+License: VARIOUS
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 53665
+Filename: vpnc_0.5.3.r550-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 54571
+SHA256sum: f9b89c416ef727ee11d10b3f0593dc00ee759e63de85ce6d7c874eff95680b1a
+Description:  A VPN client compatible with Cisco's EasyVPN equipment.
+ 
+ Supports IPSec (ESP) with Mode Configuration and Xauth.  Supports only
+ shared-secret IPSec authentication with Xauth, AES (256, 192, 128),
+ 3DES, 1DES, MD5, SHA1, DH1/2/5 and IP tunneling.
+
+Package: watchcat
+Version: 1-7
+Depends: libc
+License: GPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2167
+Filename: watchcat_1-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2965
+SHA256sum: 7ca3044b73d7f8967e8cd21dd2e1378d600aeeec3ccb1dcf48945f796a908824
+Description:  Allows to configure a periodically reboot, or after losing internet connectivity. Configured trough UCI /etc/config/system.
+
+Package: wget
+Version: 1.20.3-2
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget
+Alternatives: 300:/usr/bin/wget:/usr/bin/wget-ssl
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 199696
+Filename: wget_1.20.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 200400
+SHA256sum: 4ab61b8cad143dc1e0b67ffbbb1276493d8df12a710eb9be941973495d5797b9
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: wifischedule
+Version: 1-2
+Depends: libc
+License: PRPL
+Section: net
+Architecture: all
+Installed-Size: 3100
+Filename: wifischedule_1-2_all.ipk
+Size: 3873
+SHA256sum: 99cadd294c8729358fc66ca144cc1d138f09f10c15826d92dfcae129914b5235
+Description:  Turns WiFi on and off according to a schedule defined in UCI.
+
+Package: zerotier
+Version: 1.4.6-1
+Depends: libc, libpthread, libstdcpp, kmod-tun, ip, libminiupnpc, libnatpmp
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 383553
+Filename: zerotier_1.4.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 383494
+SHA256sum: 35daa85f496e2b216633f526ab90c9578b6cb0f7c955a52c6e5e21e42f6ad4d7
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
+
+Package: zoneinfo-asia
+Version: 2018e-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30252
+Filename: zoneinfo-asia_2018e-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30703
+SHA256sum: 3d7db94694cda130d2275e476940a0ce93a440d104e07ac6ad35b7f764dcbc60
+Description:  Zone Information (Asia)
+
